@@ -5,9 +5,8 @@ from QLPK import models, dao
 
 
 class QuyDinhView(ModelView):
-    print(dao.GetAmountOfRules())
     can_edit = True
-    can_create = True if dao.GetAmountOfRules() == 0 else False
+    can_create = True if dao.SoLuongQuyDinh() == 0 else False
     column_display_pk = True
     can_view_details = True
     can_set_page_size = 50
@@ -17,3 +16,18 @@ class QuyDinhView(ModelView):
     def is_accessible(self):
         return current_user.is_authenticated
 
+
+    def on_model_change(self, form, model, is_created=False):
+        so_luong_quy_dinh = dao.SoLuongQuyDinh()
+        if so_luong_quy_dinh > 0:
+            self.can_create = False
+        else:
+            self.can_create = True
+
+
+    def after_model_delete(self, model):
+        so_luong_quy_dinh = dao.SoLuongQuyDinh()
+        if so_luong_quy_dinh > 0:
+            self.can_create = False
+        else:
+            self.can_create = True

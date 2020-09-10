@@ -1,5 +1,5 @@
 SECRET_KEY = "SERECT-KEY-IS-SECRET"
-SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost/flaskmysql123"
+SQLALCHEMY_DATABASE_URI = "mysql+pymysql://root:@localhost/flaskmysql123?charset=utf8mb4"
 SQLALCHEMY_TRACK_MODIFICATIONS= True
 FLASK_ADMIN_SWATCH = 'cerulean'
 MAIL_SERVER = 'smp.googlemail.com'

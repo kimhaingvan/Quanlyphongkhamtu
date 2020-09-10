@@ -1,11 +1,12 @@
 import hashlib
+from datetime import datetime
 
 from flask import request, redirect, flash, url_for
 from flask_login import login_user
-from sqlalchemy import or_
+from sqlalchemy import or_, func
 
 from QLPK import db
-from QLPK.models import Users, Code, Quydinh, Bacsi, Khoa, GopY
+from QLPK.models import Users, Code, Quydinh, Bacsi, Khoa, GopY, Phieukhambenh, Loaibenh, Thuoc, Donvi, Chidan
 
 import smtplib
 
@@ -49,8 +50,26 @@ def DangKy():
     return redirect(url_for('login_admin'))
 
 
-def GetAmountOfRules():
+def LayCacQuyDinh():
+    return Quydinh.query.first()
+
+def SoLuongQuyDinh():
     return len(Quydinh.query.all())
+
+def SoLuongPhieuKhamBenhTrongNgay():
+    return len(Phieukhambenh.query.filter(Phieukhambenh.phieu_kham_benh_id, func.DATE(Phieukhambenh.ngay_kham) == datetime.utcnow().date()).all())
+
+def SoLuongLoaiBenh():
+    return len(Loaibenh.query.all())
+
+def SoLuongLoaiThuoc():
+    return len(Thuoc.query.all())
+
+def SoLuongDonVi():
+    return len(Donvi.query.all())
+
+def SoLuongCachDung():
+    return len(Chidan.query.all())
 
 def LayTatCaBacSi():
     return Bacsi.query.all()

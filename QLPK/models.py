@@ -129,6 +129,12 @@ class Bacsi(db.Model):
     mieu_ta = db.Column(db.String(200))
     khoa_id =  db.Column(db.Integer, db.ForeignKey('khoa.khoa_id'))
 
+
+    def save(self, *args, **kwargs):
+        print('whatever I want to do myself is here')
+        return super(Bacsi, self).save(*args, **kwargs)
+
+
     def __str__(self):
         return str(self.bac_si_id) + '-' + self.ho_ten
 
