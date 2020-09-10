@@ -1,11 +1,12 @@
 {% extends 'clients/base.html'%}
 {% block body%}
 <body>
+
 <nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
 	<div class="container">
 		<div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
 			<div class="col-lg-2 pr-4 align-items-center">
-				<a class="navbar-brand" href="index.html">Dr.<span>care</span></a>
+				<a class="navbar-brand" href="{{url_for('Index')}}">Dr.<span>care</span></a>
 			</div>
 			<div class="col-lg-10 d-none d-md-block">
 				<div class="row d-flex">
@@ -31,19 +32,21 @@
 		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
 			<span class="oi oi-menu"></span> Menu
 		</button>
-		<p class="button-custom order-lg-last mb-0"><a href="appointment.html" class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
+		<p class="button-custom order-lg-last mb-0"><a href="{{url_for('Appointment')}}" class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
 		<div class="collapse navbar-collapse" id="ftco-nav">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item"><a href="index.html" class="nav-link pl-0">Home</a></li>
-				<li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
-				<li class="nav-item active"><a href="doctor.html" class="nav-link">Doctor</a></li>
-				<li class="nav-item"><a href="department.html" class="nav-link">Departments</a></li>
-				<li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
-				<li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>
-				<li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+				<li class="nav-item active"><a href="{{url_for('Index')}}" class="nav-link pl-0">Home</a></li>
+				<li class="nav-item"><a  href="{{url_for('About')}}" class="nav-link">About</a></li>
+				<li class="nav-item"><a href="{{url_for('Doctor')}}" class="nav-link">Doctor</a></li>
+				<li class="nav-item"><a  href="{{url_for('Department')}}" class="nav-link">Departments</a></li>
+				<li class="nav-item"><a href="{{url_for('Pricing')}}" class="nav-link">Pricing</a></li>
+				<li class="nav-item"><a  href="{{url_for('Blog')}}" class="nav-link">Blog</a></li>
+				<li class="nav-item"><a  href="{{url_for('Contact')}}" class="nav-link">Contact</a></li>
 			</ul>
 		</div>
 	</div>
+</nav>
+
 </nav>
 <!-- END nav -->
 
@@ -61,17 +64,28 @@
 
 <section class="ftco-section">
 	<div class="container">
+		<form action="{{ url_for('TimKiemBacSi')}}" method="post" class="mb-4 d-flex align-items-center justify-content-center">
+			<input style="width: 80%" type="text" name="ho_ten" placeholder="Please type keyword for looking for spectific doctor">
+			<select name="ten_khoa" id="khoa">
+				<option value="" selected>Chọn khoa</option>
+				{% for khoa in tat_ca_khoa %}
+				<option value="{{khoa.khoa_id}}">{{khoa.ten_khoa}}</option>
+				{% endfor %}
+			</select>
+			<button type="submit" class="btn-primary ml-4">Search</button>
+		</form>
 		<div class="row">
-			<div class="col-md-6 col-lg-3 ftco-animate">
+			{% for bac_si in tat_ca_bac_si %}
+			<div class="col-md-6 col-lg-3 ftco-animate"  onclick="XemChiTietBS({{bac_si.bac_si_id}})">
 				<div class="staff">
 					<div class="img-wrap d-flex align-items-stretch">
 						<div class="img align-self-stretch" style="background-image: url(static/images/doc-1.jpg);"></div>
 					</div>
 					<div class="text pt-3 text-center">
-						<h3>Dr. Lloyd Wilson</h3>
-						<span class="position mb-2">Neurologist</span>
+						<h3>{{bac_si.ho_ten}}</h3>
+						<span class="position mb-2">{{bac_si.khoa.ten_khoa}}</span>
 						<div class="faded">
-							<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
+							<p>{{bac_si.mieu_ta}}</p>
 							<ul class="ftco-social text-center">
 								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
 								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
@@ -82,147 +96,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="staff">
-					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(static/images/doc-2.jpg);"></div>
-					</div>
-					<div class="text pt-3 text-center">
-						<h3>Dr. Rachel Parker</h3>
-						<span class="position mb-2">Ophthalmologist</span>
-						<div class="faded">
-							<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-							<ul class="ftco-social text-center">
-								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="staff">
-					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(static/images/doc-3.jpg);"></div>
-					</div>
-					<div class="text pt-3 text-center">
-						<h3>Dr. Ian Smith</h3>
-						<span class="position mb-2">Dentist</span>
-						<div class="faded">
-							<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-							<ul class="ftco-social text-center">
-								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="staff">
-					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(static/images/doc-4.jpg);"></div>
-					</div>
-					<div class="text pt-3 text-center">
-						<h3>Dr. Alicia Henderson</h3>
-						<span class="position mb-2">Pediatrician</span>
-						<div class="faded">
-							<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-							<ul class="ftco-social text-center">
-								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="staff">
-					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(static/images/doc-5.jpg);"></div>
-					</div>
-					<div class="text pt-3 text-center">
-						<h3>Dr. Lloyd Wilson</h3>
-						<span class="position mb-2">Neurologist</span>
-						<div class="faded">
-							<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-							<ul class="ftco-social text-center">
-								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="staff">
-					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(static/images/doc-6.jpg);"></div>
-					</div>
-					<div class="text pt-3 text-center">
-						<h3>Dr. Rachel Parker</h3>
-						<span class="position mb-2">Ophthalmologist</span>
-						<div class="faded">
-							<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-							<ul class="ftco-social text-center">
-								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="staff">
-					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(static/images/doc-7.jpg);"></div>
-					</div>
-					<div class="text pt-3 text-center">
-						<h3>Dr. Ian Smith</h3>
-						<span class="position mb-2">Dentist</span>
-						<div class="faded">
-							<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-							<ul class="ftco-social text-center">
-								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3 ftco-animate">
-				<div class="staff">
-					<div class="img-wrap d-flex align-items-stretch">
-						<div class="img align-self-stretch" style="background-image: url(static/images/doc-8.jpg);"></div>
-					</div>
-					<div class="text pt-3 text-center">
-						<h3>Dr. Alicia Henderson</h3>
-						<span class="position mb-2">Pediatrician</span>
-						<div class="faded">
-							<p>I am an ambitious workaholic, but apart from that, pretty simple person.</p>
-							<ul class="ftco-social text-center">
-								<li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
-								<li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
-							</ul>
-						</div>
-					</div>
-				</div>
-			</div>
+			{% endfor%}
 		</div>
 
 	</div>
@@ -230,6 +104,7 @@
 
 <footer class="ftco-footer ftco-bg-dark ftco-section">
 	<div class="container">
+
 		<div class="row mb-5">
 			<div class="col-md">
 				<div class="ftco-footer-widget mb-5">
@@ -332,6 +207,11 @@
 
 
 <!-- loader -->
+<script>
+	function XemChiTietBS(bac_si_id) {
+		location.href = 'http://127.0.0.1:5500/detail-doctor/'+bac_si_id;
+	}
+</script>
 
 
 

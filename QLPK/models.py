@@ -1,7 +1,7 @@
 from flask_admin.contrib.sqla import ModelView
 from flask_login import UserMixin
 
-from QLPK import db
+from QLPK import db, util
 
 
 class Phieukhambenh(db.Model):
@@ -129,13 +129,33 @@ class Bacsi(db.Model):
     mieu_ta = db.Column(db.String(200))
     khoa_id =  db.Column(db.Integer, db.ForeignKey('khoa.khoa_id'))
 
+    def __str__(self):
+        return str(self.bac_si_id) + '-' + self.ho_ten
 
-class khoa(db.Model):
+    def serialize(self):
+        return {
+            'bac_si_id': self.bac_si_id,
+            'ho_ten': self.ho_ten,
+            'nam_sinh': self.nam_sinh,
+            'mieu_ta': self.mieu_ta,
+            'khoa': self.khoa.serialize(),
+        }
+
+class Khoa(db.Model):
     khoa_id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     ten_khoa = db.Column(db.String(200))
     mieu_ta = db.Column(db.String(2000))
     ds_bac_si = db.relationship('Bacsi', backref='khoa', lazy=True)
 
+    def __str__(self):
+        return str(self.khoa_id) + '-' + self.ten_khoa
+
+    def serialize(self):
+        return {
+            'ten_khoa': self.ten_khoa,
+            'mieu_ta': self.mieu_ta,
+            'ds_bac_si': util.ConvertModelListToDictList(self.ds_bac_si),
+        }
 
 class Chidan(db.Model):
     chi_dan_id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
@@ -155,6 +175,7 @@ class Chidan(db.Model):
 class Loaibenh(db.Model):
     loai_benh_id = db.Column(db.Integer, primary_key=True, nullable=False, autoincrement=True)
     ten_loai_benh = db.Column(db.String(300))
+    trieu_chung = db.Column(db.String(300))
     ds_phieu_kham_benh = db.relationship('Phieukhambenh', backref='loai_benh', lazy=True)
 
     def __str__(self):
@@ -163,7 +184,8 @@ class Loaibenh(db.Model):
     def serialize(self):
         return {
             'loai_benh_id': self.loai_benh_id,
-            'ten_loai_benh': self.ten_loai_benh
+            'ten_loai_benh': self.ten_loai_benh,
+            'trieu_chung': self.trieu_chung
         }
 
 
@@ -217,4 +239,13 @@ class Quydinh(db.Model):
         }
 
 
+class GopY(db.Model):
+    gop_y_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    ten_nguoi_gui =  db.Column(db.String(50), nullable=False)
+    email_nguoi_gui = db.Column(db.String(50), nullable=False)
+    tieu_de = db.Column(db.String(100), nullable=False)
+    noi_dung = db.Column(db.String(5000), nullable=False)
+
 db.create_all()
+
+

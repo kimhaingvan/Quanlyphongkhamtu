@@ -1,0 +1,234 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Dr.care - Free Bootstrap 4 Template by Colorlib</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100,200,300,400,500,600,700,800,900" rel="stylesheet">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/open-iconic-bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/animate.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/owl.carousel.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/owl.theme.default.min.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/magnific-popup.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/aos.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/ionicons.min.css')}}">
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/bootstrap-datepicker.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/jquery.timepicker.css')}}">
+
+
+    <link rel="stylesheet" href="{{url_for('static', filename='css/flaticon.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/icomoon.css')}}">
+    <link rel="stylesheet" href="{{url_for('static', filename='css/style.css')}}">
+</head>
+<body>
+<nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
+    <div class="container">
+        <div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
+            <div class="col-lg-2 pr-4 align-items-center">
+                <a class="navbar-brand" href="{{url_for('Index')}}">Dr.<span>care</span></a>
+            </div>
+            <div class="col-lg-10 d-none d-md-block">
+                <div class="row d-flex">
+                    <div class="col-md-4 pr-4 d-flex topper align-items-center">
+                        <div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
+                        <span class="text">Address: 198 West 21th Street, Suite 721 New York NY 10016</span>
+                    </div>
+                    <div class="col-md pr-4 d-flex topper align-items-center">
+                        <div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                        <span class="text">Email: youremail@email.com</span>
+                    </div>
+                    <div class="col-md pr-4 d-flex topper align-items-center">
+                        <div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+                        <span class="text">Phone: + 1235 2355 98</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container d-flex align-items-center">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="oi oi-menu"></span> Menu
+        </button>
+        <p class="button-custom order-lg-last mb-0"><a href="{{url_for('Appointment')}}" class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"><a href="{{url_for('Index')}}" class="nav-link pl-0">Home</a></li>
+                <li class="nav-item"><a  href="{{url_for('About')}}" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="{{url_for('Doctor')}}" class="nav-link">Doctor</a></li>
+                <li class="nav-item"><a  href="{{url_for('Department')}}" class="nav-link">Departments</a></li>
+                <li class="nav-item"><a href="{{url_for('Pricing')}}" class="nav-link">Pricing</a></li>
+                <li class="nav-item"><a  href="{{url_for('Blog')}}" class="nav-link">Blog</a></li>
+                <li class="nav-item"><a  href="{{url_for('Contact')}}" class="nav-link">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+</nav>
+<!-- END nav -->
+{% if chi_tiet_bac_si %}
+<div class="col-md-6 col-lg-3 ftco-animate text-center" style="left: 35%">
+    <div class="staff">
+        <div class="img-wrap d-flex align-items-stretch">
+            <div class="img align-self-stretch" style="background-image: url(data:image/jpeg;base64,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);"></div>
+        </div>
+        <div class="text pt-3 text-center">
+            <h3>{{chi_tiet_bac_si.ho_ten}}</h3>
+            <span class="position mb-2">    {{chi_tiet_bac_si.khoa.ten_khoa}}
+</span>
+            <div class="faded">
+                <p>{{ chi_tiet_bac_si.mieu_ta }}</p>
+                <p>
+                    Giới tính: {% if chi_tiet_bac_si.gioi_tinh %}
+                    Nam {% else %} Nữ {% endif %}
+                </p>
+                <p>
+                    Năm sinh: {{chi_tiet_bac_si.nam_sinh}}
+                </p>
+                <ul class="ftco-social text-center">
+                    <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="icon-google-plus"></span></a></li>
+                    <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% else %}
+    Trang này không được tìm thấy
+{% endif%}
+
+<footer class="ftco-footer ftco-bg-dark ftco-section">
+    <div class="container">
+        <div class="row mb-5">
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2 logo">Dr.<span>care</span></h2>
+                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                </div>
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Have a Questions?</h2>
+                    <div class="block-23 mb-3">
+                        <ul>
+                            <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                            <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                            <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                        </ul>
+                    </div>
+
+                    <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                        <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                        <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-5 ml-md-4">
+                    <h2 class="ftco-heading-2">Links</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                    </ul>
+                </div>
+                <div class="ftco-footer-widget mb-5 ml-md-4">
+                    <h2 class="ftco-heading-2">Services</h2>
+                    <ul class="list-unstyled">
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Neurolgy</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Dentist</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Ophthalmology</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Cardiology</a></li>
+                        <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Surgery</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Recent Blog</h2>
+                    <div class="block-21 mb-4 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url(static/   images/image_1.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block-21 mb-5 d-flex">
+                        <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                        <div class="text">
+                            <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                            <div class="meta">
+                                <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
+                                <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md">
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Opening Hours</h2>
+                    <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>We are open 24/7</h3>
+                </div>
+                <div class="ftco-footer-widget mb-5">
+                    <h2 class="ftco-heading-2">Subscribe Us!</h2>
+                    <form action="#" class="subscribe-form">
+                        <div class="form-group">
+                            <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
+                            <input type="submit" value="Subscribe" class="form-control submit px-3">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+
+                <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            </div>
+        </div>
+    </div>
+</footer>
+</body>
+<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+<script src="{{url_for('static', filename='js/jquery.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery-migrate-3.0.1.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/popper.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.easing.1.3.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.waypoints.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.stellar.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/owl.carousel.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.magnific-popup.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/aos.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.animateNumber.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/bootstrap-datepicker.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.timepicker.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/scrollax.min.js')}}"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+<script src="{{url_for('static', filename='js/google-map.js')}}"></script>
+<script src="{{url_for('static', filename='js/main.js')}}"></script>
+
+</html>
