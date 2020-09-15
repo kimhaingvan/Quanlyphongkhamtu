@@ -27,7 +27,14 @@
         <span class="text-danger">Email::</span>
         <input type="email" name="email" class="form-control" placeholder="Email..."/>
     </div>
-
+    <div class="form-group">
+        <span class="text-danger">Chức vụ ::</span>
+        <select name="chuc_vu_id" id="chuc_vu" class="form-control">
+            {% for chuc_vu in cac_chuc_vu %}
+            <option value={{chuc_vu.chuc_vu_id}}>{{chuc_vu.ten_chuc_vu}}</option>
+            {% endfor %}
+        </select>
+    </div>
     <div class="form-group">
         <input type="submit" value="Sign up" class="btn btn-danger"/>
     </div>

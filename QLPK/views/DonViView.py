@@ -7,7 +7,7 @@ from QLPK import dao
 class DonViView(ModelView):
     cac_quy_dinh = dao.LayCacQuyDinh()
     so_luong_don_vi_tinh_toi_da = dao.SoLuongDonVi()
-    can_create = True if so_luong_don_vi_tinh_toi_da <= cac_quy_dinh.so_luong_don_vi_tinh_toi_da else False
+    # can_create = True if so_luong_don_vi_tinh_toi_da <= cac_quy_dinh.so_luong_don_vi_tinh_toi_da else False
 
     can_edit = True
     column_display_pk = True

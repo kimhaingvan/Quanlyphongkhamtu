@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["\/+KwF"]); }
+
+__d("WorkGalahadAppTabIDUtil",["WorkGalahadAppTabID","getJSEnumSafe","gkx"],(function(a,b,c,d,e,f){"use strict";f.getTabID=a;f.getChatTabID=c;f.getProductSpecificHomeTabID=d;function a(a){return b("getJSEnumSafe")(b("WorkGalahadAppTabID"),a)}function c(){return b("gkx")("1328707")?"home":"chats"}function d(){return b("gkx")("1703310")?"gardens":"home"}}),null);

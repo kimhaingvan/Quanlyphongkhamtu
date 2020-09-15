@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["t38dO"]); }
+
+__d("BDNavigatorMaxTouchPointSignalCollector",["BDSignalCollectorBase","NumberSignalValueType"],(function(a,b,c,d,e,f){"use strict";var g=function(c){babelHelpers.inheritsLoose(a,c);function a(){return c.call(this,i.signalType)||this}var d=a.prototype;d.executeSignalCollection=function(){this.throwIfNotInitialized();var a=new(b("NumberSignalValueType"))(Date.now(),this.getContext(),navigator.maxTouchPoints);return{valueOrError:a}};return a}(b("BDSignalCollectorBase")),h=null,i={signalType:30093,get:function(){h==null&&(h=new g());return h}};e.exports=i}),null);
+__d("XChinaBusinessGraphOnboardingPreSubmitAACRequestController",["XController"],(function(a,b,c,d,e,f){e.exports=b("XController").create("/china_businesses/onboarding/pre_submit_aac_request/",{})}),null);

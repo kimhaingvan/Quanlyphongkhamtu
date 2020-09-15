@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["UbSnU"]); }
+
+__d("useShouldShowMessagingEntrypointOnCurrentRoute",["useCurrentRoute","useShouldShowMessagingEntrypoint"],(function(a,b,c,d,e,f){"use strict";function a(a){var c=b("useCurrentRoute")();return b("useShouldShowMessagingEntrypoint")(c,a)}c=a;e.exports=c}),null);
+__d("NoscriptOverride",["Cookie","goURI"],(function(a,b,c,d,e,f){a={redirectToJSPage:function(a){b("Cookie").clear("noscript"),b("goURI")(a)}};e.exports=a}),null);

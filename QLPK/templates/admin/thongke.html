@@ -1,0 +1,128 @@
+{% extends "admin/master.html" %}
+{% block body %}
+
+<h1 class="text-center text-info">Thống kê</h1>
+<form action="/bao-cao-doanh-thu" method="post">
+    <h3 class="text-center">Báo Cáo Doanh Thu Theo Ngày</h3>
+    <div class="row">
+        <label for="thang">Chọn tháng: </label>
+        <input min="1" max="12" type="month" name="thang" id="thang" placeholder="Vui lòng chọn tháng" style="width: 75%">
+        <div onclick="BaoCaoDoanhThu()" class="btn btn-primary">
+            Thống kê
+        </div>
+    </div>
+
+    <h3 class="text-center">Báo Cáo Sử Dụng Thuốc Trong Tháng</h3>
+    <div class="row">
+        <label for="thang_thuoc">Chọn tháng: </label>
+        <input min="1" max="12" type="month" name="thang" id="thang_thuoc" placeholder="Vui lòng chọn tháng" style="width: 75%">
+        <div onclick="BaoCaoSuDungThuoc()" class="btn btn-primary">
+            Thống kê
+        </div>
+    </div>
+</form>
+<div id="ket_qua_doanh_thu"></div>
+<div id="ket_qua_su_dung_thuoc"></div>
+<script>
+    function BaoCaoDoanhThu() {
+        let thang = document.getElementById('thang').value;
+        fetch("/bao-cao-doanh-thu", {
+            body: JSON.stringify({
+                "thang": thang
+            }),
+            method: "post",
+            headers: {"Content-Type": "application/json"}
+        }).then(res => res.json()).then(bao_cao_doanh_thu => {
+            console.log(bao_cao_doanh_thu)
+            ket_qua_doanh_thu = document.getElementById('ket_qua_doanh_thu')
+            while (ket_qua_doanh_thu.firstChild) {
+                ket_qua_doanh_thu.removeChild(ket_qua_doanh_thu.lastChild);
+            }
+            ket_qua_doanh_thu.innerHTML='';
+            var table = document.createElement("table");
+            ket_qua_doanh_thu.appendChild(table);
+
+            var tr = document.createElement("tr")
+
+            var th_stt = document.createElement("th")
+            th_stt.innerText = "STT"
+            var th_ngay = document.createElement("th")
+            th_ngay.innerText = "Ngày"
+
+            var th_so_benh_nhan = document.createElement("th")
+            th_so_benh_nhan.innerText = "Số bệnh nhân"
+
+            var th_doanh_thu = document.createElement("th")
+            th_doanh_thu.innerText = "Doanh thu"
+
+            var th_ty_le = document.createElement("th")
+            th_ty_le.innerText = "Tỷ lệ"
+
+            tr.appendChild(th_stt )
+            tr.appendChild(th_ngay)
+            tr.appendChild(th_so_benh_nhan)
+            tr.appendChild(th_doanh_thu)
+            tr.appendChild(th_ty_le)
+            table.appendChild(tr)
+
+            bao_cao_doanh_thu.forEach((bao_cao, index )=> {
+                let tr = document.createElement("tr")
+
+                let th_stt = document.createElement("th")
+                th_stt.innerText = index + 1;
+
+                let th_ngay = document.createElement("th")
+                th_ngay.innerText = bao_cao.ngay
+
+                let th_so_benh_nhan = document.createElement("th")
+                th_so_benh_nhan.innerText = bao_cao.so_benh_nhan
+
+                let th_doanh_thu = document.createElement("th")
+                th_doanh_thu.innerText = bao_cao.doanh_thu
+
+                let th_ty_le = document.createElement("th")
+                th_ty_le.innerText = bao_cao.ti_le
+
+                tr.appendChild(th_stt )
+                tr.appendChild(th_ngay)
+                tr.appendChild(th_so_benh_nhan)
+                tr.appendChild(th_doanh_thu)
+                tr.appendChild(th_ty_le)
+                table.appendChild(tr)
+            })
+
+        })
+    }
+
+    function BaoCaoSuDungThuoc() {
+        console.log('dsadas')
+        let thang_thuoc = document.getElementById('thang_thuoc').value;
+        fetch("/bao-cao-su_dung_thuoc", {
+            body: JSON.stringify({
+                "thang": thang_thuoc
+            }),
+            method: "post",
+            headers: {"Content-Type": "application/json"}
+        }).then(res => res.json()).then(data => {
+            console.log(data)
+        })
+    }
+</script>
+<style>
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+</style>
+{% endblock%}

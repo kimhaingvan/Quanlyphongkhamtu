@@ -1,5 +1,6 @@
-from flask import render_template, redirect, url_for, request
+from flask import render_template, redirect, url_for, request, jsonify
 from livereload import Server
+from flask_login import current_user
 
 from QLPK import app, admin, dao, login, smtp
 from QLPK.models import *
@@ -14,10 +15,12 @@ from QLPK.views.KhoaView import KhoaView
 from QLPK.views.LoaiBenhView import LoaiBenhView
 from QLPK.views.PhieuKhamBenhView import PhieuKhamBenhView
 from QLPK.views.QuyDinhView import QuyDinhView
+from QLPK.views.ThongKeView import ThongKeView
 from QLPK.views.ThuocView import ThuocView
 from QLPK.views.addViewLogout import LogoutView
 from QLPK.views.addViewRegister import RegisterView
 import smtplib
+
 admin.add_view(PhieuKhamBenhView(Phieukhambenh, db.session, name="Phiếu khám bệnh"))
 admin.add_view(BenhNhanView(Benhnhan, db.session, name="Bệnh nhân"))
 admin.add_view(LoaiBenhView(Loaibenh, db.session, name="Loại bệnh"))
@@ -32,6 +35,7 @@ admin.add_view(KhoaView(Khoa, db.session, name="Khoa"))
 admin.add_view(GopYView(GopY, db.session, name="Góp ý"))
 admin.add_view(RegisterView(name="Đăng ký"))
 admin.add_view(LogoutView(name="Đăng xuất"))
+admin.add_view(ThongKeView(name="Thống kê"))
 
 from email.message import EmailMessage
 
@@ -59,6 +63,7 @@ def Index():
 
 @app.route('/about', methods=['GET', 'POST'])
 def About():
+    print('about na')
     return render_template('clients/about.html')
 
 @app.route('/appointment', methods=['GET', 'POST'])
@@ -84,6 +89,12 @@ def Department():
 @app.route('/pricing', methods=['GET', 'POST'])
 def Pricing():
     return render_template('clients/pricing.html')
+
+@app.route("/payment", methods=['POST', 'GET'])
+def payment():
+    # return render_template('clients/pricing.html')
+    print('view payment na')
+    return render_template("clients/payment.html", resss=dao.payment_momo())
 
 @app.route('/tim-kiem-bac-si', methods=['GET', 'POST'])
 def TimKiemBacSi():
@@ -123,6 +134,42 @@ def Doctor():
 def XemChiTietBS(id):
     chi_tiet_bac_si = dao.LayChiTietBacSiTheoId(id)
     return render_template('clients/detail-doctor.html', chi_tiet_bac_si=chi_tiet_bac_si)
+
+@app.route('/thanh-toan', methods=['GET', 'POST'])
+def ThanhToan():
+    nguoi_dung = current_user
+    print(nguoi_dung)
+    nguoi_dung_id = nguoi_dung.id
+    tien_kham = request.json['tien_kham']
+    tong_tien = request.json['tong_tien']
+    ma_phieu_kham_benh = request.json['ma_phieu_kham_benh']
+    cac_chi_tiet_hoa_don = request.json['cac_chi_tiet_hoa_don']
+    thanh_toan = dao.ThanhToan(ma_phieu_kham_benh=ma_phieu_kham_benh, tong_tien= tong_tien, tien_kham=tien_kham, cac_chi_tiet_hoa_don=cac_chi_tiet_hoa_don, nguoi_dung_id=nguoi_dung_id)
+    return thanh_toan
+
+@app.route('/thanh-toan-momo', methods=['GET', 'POST'])
+def ThanhToanMomo():
+    tong_tien = request.json['tong_tien']
+    res = dao.thanh_toan_momo(str(tong_tien))
+    print(res)
+    return jsonify({
+        'payUrl': res['payUrl']
+    })
+
+@app.route('/bao-cao-doanh-thu', methods=['GET', 'POST'])
+def BaoCaoDoanhThu():
+    nam = int(request.json['thang'].split('-')[0])
+    thang = int(request.json['thang'].split('-')[1])
+    doanh_thu_theo_thang = dao.BaoCaoDoanhThuTheoThang(thang=thang, nam=nam)
+    return doanh_thu_theo_thang
+
+@app.route('/bao-cao-su_dung_thuoc', methods=['GET', 'POST'])
+def BaoCaoSuDungThuoc():
+    nam = int(request.json['thang'].split('-')[0])
+    thang = int(request.json['thang'].split('-')[1])
+    print('aa')
+    bao_cao_su_dung_thuoc= dao.BaoCaoSuDungThuoc(thang=thang, nam=nam)
+    return bao_cao_su_dung_thuoc
 
 if __name__ == "__main__":
     server = Server(app.wsgi_app)

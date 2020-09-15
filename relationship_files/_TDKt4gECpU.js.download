@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["mEiuV"]); }
+
+__d("AdsPESelectAdObjectsStoreUtils",["AdsApplicationUtils","requireWeak"],(function(a,b,c,d,e,f){f.shouldUseCreativeStudioStores=a;var g;b("requireWeak")("CrStUIStore",function(a){return g=a});function a(){var a;return b("AdsApplicationUtils").isCreativeStudio()&&!["SPLIT_TEST_CREATION","SPLIT_TEST_LIST","SPLIT_TEST_REPORT"].includes((a=g)==null?void 0:(a=a.getState())==null?void 0:a.activeSection)}}),null);
+__d("VideoPlayerViewabilityConstants",[],(function(a,b,c,d,e,f){"use strict";a={DEFAULT_VIEWABILITY_PERCENTAGE_FOR_PAUSE:.5};b=a;e.exports=b}),null);
+__d("MqttUnifiedClientDisconnectFalcoEvent",["FalcoLoggerInternal","getSamplingPolicyConfig_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getSamplingPolicyConfig_DO_NOT_USE")("falco","mqtt_unified_client_disconnect");c=b("FalcoLoggerInternal").create(a);e.exports=c}),null);

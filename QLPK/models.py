@@ -14,7 +14,7 @@ class Phieukhambenh(db.Model):
     hoa_don = db.relationship('Hoadon', backref='phieu_kham_benh', lazy=True)
 
     def __str__(self):
-        return str(self.phieu_kham_benh_id)
+        return str(self.phieu_kham_benh_id) + ' - ' + self.trieu_chung
 
     def serialize(self):
         return {
@@ -28,11 +28,11 @@ class Phieukhambenh(db.Model):
 
 
 class Chitiethoadon(db.Model):
-    hoa_don_id = db.Column(db.Integer, db.ForeignKey('hoadon.hoa_don_id'), primary_key=True)
-    thuoc_id = db.Column(db.Integer, db.ForeignKey('thuoc.thuoc_id'), primary_key=True)
-    don_vi_id = db.Column(db.Integer, db.ForeignKey('donvi.don_vi_id'), primary_key=True)
-    chi_dan_id = db.Column(db.Integer, db.ForeignKey('chidan.chi_dan_id'), primary_key=True)
-    so_luong = db.Column(db.Integer)
+    hoa_don_id = db.Column(db.Integer, db.ForeignKey('hoadon.hoa_don_id'), primary_key=True, nullable=True)
+    thuoc_id = db.Column(db.Integer, db.ForeignKey('thuoc.thuoc_id'), nullable=True)
+    don_vi_id = db.Column(db.Integer, db.ForeignKey('donvi.don_vi_id'), nullable=True)
+    chi_dan_id = db.Column(db.Integer, db.ForeignKey('chidan.chi_dan_id'), nullable=True)
+    so_luong = db.Column(db.Integer, nullable=True)
 
     def __str__(self):
         return str(self.hoa_don_id) + '-' + str(self.so_luong)
@@ -53,10 +53,11 @@ class Benhnhan(db.Model):
     gioi_tinh = db.Column(db.Boolean)
     nam_sinh = db.Column(db.DateTime)
     dia_chi = db.Column(db.String(500))
+    chung_minh_thu = db.Column(db.String(13))
     ds_phieu_kham_benh = db.relationship('Phieukhambenh', backref='benh_nhan', lazy=True)
 
     def __str__(self):
-        return str(self.benh_nhan_id) + '-' + self.ho_ten + '-' + self.dia_chi
+        return str(self.benh_nhan_id) + '-' + self.ho_ten + '-' + 'Nam' if self.gioi_tinh else 'Nữ' + self.dia_chi + str(self.nam_sinh)
 
     def serialize(self):
         return {
@@ -75,6 +76,7 @@ class Hoadon(db.Model):
     ngay_thanh_toan = db.Column(db.DateTime)
     tong_tien = db.Column(db.Float)
     ds_chi_tiet_hoa_don = db.relationship('Chitiethoadon', backref='hoa_don', lazy=True)
+    nguoi_dung_id = db.Column(db.Integer, db.ForeignKey('users.id'))
 
     def __str__(self):
         return str(self.hoa_don_id)
@@ -128,10 +130,9 @@ class Bacsi(db.Model):
     nam_sinh = db.Column(db.DateTime)
     mieu_ta = db.Column(db.String(200))
     khoa_id =  db.Column(db.Integer, db.ForeignKey('khoa.khoa_id'))
-
+    nguoi_dung_id =  db.Column(db.Integer, db.ForeignKey('users.id'), unique=True)
 
     def save(self, *args, **kwargs):
-        print('whatever I want to do myself is here')
         return super(Bacsi, self).save(*args, **kwargs)
 
 
@@ -209,6 +210,12 @@ class Users(db.Model, UserMixin):
     user_name = db.Column(db.String(50), nullable=False)
     password = db.Column(db.String(50), nullable=False)
     email = db.Column(db.String(50), nullable=False)
+    chuc_vu_id = db.Column(db.Integer, db.ForeignKey('chucvu.chuc_vu_id'))
+    ds_hoa_don = db.relationship('Hoadon', backref='user', lazy=True)
+    bac_si = db.relationship('Bacsi', backref='user', lazy=True)
+
+    def __str__(self):
+        return str(self.id) + ' - ' + self.name + ' - ' + self.user_name
 
     def serialize(self):
         return {
@@ -221,6 +228,10 @@ class Users(db.Model, UserMixin):
             'email': self.email
         }
 
+class Chucvu(db.Model):
+    chuc_vu_id = db.Column(db.Integer, primary_key=True, autoincrement=True)
+    ten_chuc_vu = db.Column(db.String(50))
+    users = db.relationship('Users', backref="chuc_vu", lazy=True)
 
 class Quydinh(db.Model):
     qui_dinh_id = db.Column(db.Integer, primary_key=True, autoincrement=True)

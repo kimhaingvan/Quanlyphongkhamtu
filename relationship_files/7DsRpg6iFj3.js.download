@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["nE1xN"]); }
+
+__d("XCometInstantGamesHubPlayControllerRouteBuilder",["jsRouteBuilder"],(function(a,b,c,d,e,f){a=b("jsRouteBuilder")("/instantgames/play/{gameorlink}/",Object.freeze({source:"www_bookmark"}),void 0);e.exports=a}),null);
+__d("Time.react",["React","SubscriptionList","timeString"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g=b("React"),h=3e4,i,j=new(b("SubscriptionList"))(function(){i=window.setInterval(k,h)},function(){window.clearInterval(i)});function k(){j.fireCallbacks(Date.now())}function a(a){a=a.timestamp;a=(a=a)!=null?a:0;var c=g.useState(Date.now()),d=c[0],e=c[1];g.useEffect(function(){var a=j.add(e);return function(){a.remove()}},[]);c=b("timeString")(a*1e3,d);return g.jsx("span",{children:c})}}),null);
+__d("InstantGameContextType",[],(function(a,b,c,d,e,f){a=Object.freeze({THREAD:"THREAD",GROUP:"GROUP",STORY:"STORY",SOLO:"SOLO",LINK:"LINK",MATCH:"MATCH",GENERIC:"GENERIC"});e.exports=a}),null);

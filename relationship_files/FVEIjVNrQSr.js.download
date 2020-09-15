@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["yS\/5z"]); }
+
+__d("MessengerDiscoveryEntryPointsLoggingHelper",["MessengerDiscoveryEntryPoint"],(function(a,b,c,d,e,f){"use strict";f.getEntryPointsLoggingTagStr=a;function a(a){if(a.length==0||Object.values(b("MessengerDiscoveryEntryPoint")).indexOf(a[0])==-1)throw new Error("Please use enums in MessengerDiscoveryEntryPoints class");return"entrypoint:"+a.join(":")}}),null);
+__d("deepFreezeValue",["ImmutableValue"],(function(a,b,c,d,e,f){function a(a){if(a===null||a===void 0)return;switch(typeof a){case"string":return;case"boolean":return;case"number":return;case"function":return;default:b("ImmutableValue").deepFreezeRootNode(a)}}e.exports=a}),null);

@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["r91D0"]); }
+
+__d("MediaManagerABTestingComposerIntegrationActions",["MediaManagerActionTypes","MediaManagerDispatcher"],(function(a,b,c,d,e,f){"use strict";a=function(a){b("MediaManagerDispatcher").dispatch({type:b("MediaManagerActionTypes").MediaManagerActionTypes.COMPOSER_AB_TESTING_ON_CREATION_BUTTON_ENTRYPOINT_CLICK,entryPoint:a})};f.launchABTestingTray=a;c=function(a){b("MediaManagerDispatcher").dispatch({type:b("MediaManagerActionTypes").MediaManagerActionTypes.COMPOSER_AB_TESTING_ON_CREATION_ENTRYPOINT_SELECT_PAGE_TRAY_HIDE,entryPoint:a})};f.hideABTestingTray=c}),null);

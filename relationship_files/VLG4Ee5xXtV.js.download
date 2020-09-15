@@ -1,0 +1,4 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["mLL0T"]); }
+
+__d("LynxAsyncCallbackFalcoEvent",["FalcoLoggerInternal","getSamplingPolicyConfig_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getSamplingPolicyConfig_DO_NOT_USE")("falco","lynx_async_callback");c=b("FalcoLoggerInternal").create(a);e.exports=c}),null);
+__d("RoomLobbySheetImpressionFalcoEvent",["FalcoLoggerInternal","getSamplingPolicyConfig_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getSamplingPolicyConfig_DO_NOT_USE")("falco","room_lobby_sheet_impression");c=b("FalcoLoggerInternal").create(a);e.exports=c}),null);

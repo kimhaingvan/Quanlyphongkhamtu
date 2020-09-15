@@ -14,7 +14,7 @@ class QuyDinhView(ModelView):
                          so_luong_thuoc_toi_da="Số lượng thuốc tối đa", so_luong_don_vi_tinh_toi_da="Số lượng đơn vị tính tối đa", so_luong_cach_dung_toi_da="Số lượng cách dùng tối đa")
     column_exclude_list = ['detele_at', 'create_at', ]
     def is_accessible(self):
-        return current_user.is_authenticated
+        return current_user.is_authenticated and current_user.chuc_vu_id == 2
 
 
     def on_model_change(self, form, model, is_created=False):
@@ -31,3 +31,4 @@ class QuyDinhView(ModelView):
             self.can_create = False
         else:
             self.can_create = True
+

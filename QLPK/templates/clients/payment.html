@@ -1,0 +1,351 @@
+{% extends 'clients/base.html'%}
+{% block body %}
+    <body>
+        <nav class="navbar py-4 navbar-expand-lg ftco_navbar navbar-light bg-light flex-row">
+            <div class="container">
+                <div class="row no-gutters d-flex align-items-start align-items-center px-3 px-md-0">
+                    <div class="col-lg-2 pr-4 align-items-center">
+                        <a class="navbar-brand" href="{{url_for('Index')}}">Dr.<span>care</span></a>
+                    </div>
+                    <div class="col-lg-10 d-none d-md-block">
+                        <div class="row d-flex">
+                            <div class="col-md-4 pr-4 d-flex topper align-items-center">
+                                <div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-map"></span></div>
+                                <span class="text">Address: 198 West 21th Street, Suite 721 New York NY 10016</span>
+                            </div>
+                            <div class="col-md pr-4 d-flex topper align-items-center">
+                                <div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-paper-plane"></span></div>
+                                <span class="text">Email: youremail@email.com</span>
+                            </div>
+                            <div class="col-md pr-4 d-flex topper align-items-center">
+                                <div class="icon bg-white mr-2 d-flex justify-content-center align-items-center"><span class="icon-phone2"></span></div>
+                                <span class="text">Phone: + 1235 2355 98</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark ftco-navbar-light" id="ftco-navbar">
+            <div class="container d-flex align-items-center">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="oi oi-menu"></span> Menu
+                </button>
+                <p class="button-custom order-lg-last mb-0"><a href="{{url_for('Appointment')}}" class="btn btn-secondary py-2 px-3">Make An Appointment</a></p>
+                <div class="collapse navbar-collapse" id="ftco-nav">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active"><a href="{{url_for('Index')}}" class="nav-link pl-0">Home</a></li>
+                        <li class="nav-item"><a  href="{{url_for('About')}}" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="{{url_for('Doctor')}}" class="nav-link">Doctor</a></li>
+                        <li class="nav-item"><a  href="{{url_for('Department')}}" class="nav-link">Departments</a></li>
+                        <li class="nav-item"><a href="{{url_for('Pricing')}}" class="nav-link">Pricing</a></li>
+                        <li class="nav-item"><a  href="{{url_for('Blog')}}" class="nav-link">Blog</a></li>
+                        <li class="nav-item"><a  href="{{url_for('Contact')}}" class="nav-link">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <h1 class="text-center" style="color: blue">Thanh toán hóa đơn</h1>
+            <div class="row">
+                <form action="/thanh-toan"method="post" class="w-100">
+                    <div class="row mb-3">
+                        <label for="tien_kham">Tiền khám: </label>
+                        <input type="number" placeholder="Tiền khám" name="tien_kham" id="tien_kham" class=" ml-5 d-block">
+                    </div>
+                    <div class="row mb-3">
+                        <label for="phieu_kham_benh">Phiếu khám bệnh: </label>
+                        <select name="ma_phieu_kham_benh" id="phieu_kham_benh">
+                            {% for phieu_kham_benh in cac_phieu_kham_benh %}
+                            <option value="{{phieu_kham_benh.phieu_kham_benh_id}}">{{phieu_kham_benh.phieu_kham_benh_id}} - {{phieu_kham_benh.benh_nhan.ho_ten}}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div id="chi_tiet_don_thuoc_mau" class="d-none">
+                        <div class="row them-chi-tiet mb-3" id="them-chi-tiet">
+                            <label >Loại thuốc: </label>
+                            <select name="thuoc_id" class="thuoc_id">
+                                {% for thuoc in cac_loai_thuoc %}
+                                <option value="{{thuoc}}">{{thuoc.ten_thuoc}} - {{thuoc.don_gia}}</option>
+                                {% endfor %}
+                            </select>
+                            <label class="ml-4">Chỉ dẫn: </label>
+                            <select name="chi_dan_id" class="chi_dan_id">
+                                {% for chi_dan in cac_chi_dan %}
+                                <option value="{{chi_dan.chi_dan_id}}">{{chi_dan.chi_dan_id}} - {{chi_dan.noi_dung}}</option>
+                                {% endfor %}
+                            </select>
+                            <label class="ml-4">Đơn vị: </label>
+                            <select name="don_vi_id" class="don_vi_id">
+                                {% for don_vi in cac_don_vi %}
+                                <option value={{don_vi.don_vi_id}}>{{don_vi.don_vi_id}} - {{don_vi.ten_don_vi}}</option>
+                                {% endfor %}
+                            </select>
+                            <label class="ml-4">Số lượng:</label>
+                            <input type="number" placeholder="Số lượng" name="so_luong" id="so_luong" value="">
+                            <div class=" ml-3 btn btn-danger" onclick="XoaChiTietDonThuoc(this)">Xóa</div>
+                        </div>
+                    </div>
+                    <div id="chi_tiet_don_thuoc">
+                        <div class="row them-chi-tiet mb-3" id="them-chi-tiet">
+                            <label >Loại thuốc: </label>
+                            <select name="thuoc_id" class="thuoc_id">
+                                {% for thuoc in cac_loai_thuoc %}
+                                <option value="{{thuoc}}">{{thuoc.ten_thuoc}} - {{thuoc.don_gia}}</option>
+                                {% endfor %}
+                            </select>
+                            <label class="ml-4">Chỉ dẫn: </label>
+                            <select name="chi_dan_id" class="chi_dan_id">
+                                {% for chi_dan in cac_chi_dan %}
+                                <option value={{chi_dan.chi_dan_id}}>{{chi_dan.chi_dan_id}} - {{chi_dan.noi_dung}}</option>
+                                {% endfor %}
+                            </select>
+                            <label class="ml-4">Đơn vị: </label>
+                            <select name="don_vi_id" class="don_vi_id">
+                                {% for don_vi in cac_don_vi %}
+                                <option value={{don_vi.don_vi_id}}>{{don_vi.don_vi_id}} - {{don_vi.ten_don_vi}}</option>
+                                {% endfor %}
+                            </select>
+                            <label class="ml-4">Số lượng:</label>
+                            <input type="number" placeholder="Số lượng" name="so_luong" id="so_luong">
+                            <div class=" ml-3 btn btn-danger" onclick="XoaChiTietDonThuoc(this)">Xóa</div>
+                        </div>
+                    </div>
+                    <div class="group-btn mb-3">
+                        <div class="btn btn-outline-primary" id="btn-them-chi-tiet" onclick="ThemChiTiet()"> Thêm chi tiết đơn thuốc</div>
+                        <div type="submit" class="btn btn-primary" onclick="ThanhToanMomo()">Thanh toán bằng Momo</div>
+                        <div  class="btn btn-primary" onclick="ThanhToan()">Thanh toán</div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+        <footer class="ftco-footer ftco-bg-dark ftco-section">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-5">
+                            <h2 class="ftco-heading-2 logo">Dr.<span>care</span></h2>
+                            <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        </div>
+                        <div class="ftco-footer-widget mb-5">
+                            <h2 class="ftco-heading-2">Have a Questions?</h2>
+                            <div class="block-23 mb-3">
+                                <ul>
+                                    <li><span class="icon icon-map-marker"></span><span class="text">203 Fake St. Mountain View, San Francisco, California, USA</span></li>
+                                    <li><a href="#"><span class="icon icon-phone"></span><span class="text">+2 392 3929 210</span></a></li>
+                                    <li><a href="#"><span class="icon icon-envelope"></span><span class="text">info@yourdomain.com</span></a></li>
+                                </ul>
+                            </div>
+
+                            <ul class="ftco-footer-social list-unstyled float-md-left float-lft mt-3">
+                                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-5 ml-md-4">
+                            <h2 class="ftco-heading-2">Links</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Home</a></li>
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>About</a></li>
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Services</a></li>
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Deparments</a></li>
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="ftco-footer-widget mb-5 ml-md-4">
+                            <h2 class="ftco-heading-2">Services</h2>
+                            <ul class="list-unstyled">
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Neurolgy</a></li>
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Dentist</a></li>
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Ophthalmology</a></li>
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Cardiology</a></li>
+                                <li><a href="#"><span class="ion-ios-arrow-round-forward mr-2"></span>Surgery</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-5">
+                            <h2 class="ftco-heading-2">Recent Blog</h2>
+                            <div class="block-21 mb-4 d-flex">
+                                <a class="blog-img mr-4" style="background-image: url(images/image_1.jpg);"></a>
+                                <div class="text">
+                                    <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                                    <div class="meta">
+                                        <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
+                                        <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                        <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="block-21 mb-5 d-flex">
+                                <a class="blog-img mr-4" style="background-image: url(images/image_2.jpg);"></a>
+                                <div class="text">
+                                    <h3 class="heading"><a href="#">Even the all-powerful Pointing has no control about</a></h3>
+                                    <div class="meta">
+                                        <div><a href="#"><span class="icon-calendar"></span> Dec 25, 2018</a></div>
+                                        <div><a href="#"><span class="icon-person"></span> Admin</a></div>
+                                        <div><a href="#"><span class="icon-chat"></span> 19</a></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md">
+                        <div class="ftco-footer-widget mb-5">
+                            <h2 class="ftco-heading-2">Opening Hours</h2>
+                            <h3 class="open-hours pl-4"><span class="ion-ios-time mr-3"></span>We are open 24/7</h3>
+                        </div>
+                        <div class="ftco-footer-widget mb-5">
+                            <h2 class="ftco-heading-2">Subscribe Us!</h2>
+                            <form action="#" class="subscribe-form">
+                                <div class="form-group">
+                                    <input type="text" class="form-control mb-2 text-center" placeholder="Enter email address">
+                                    <input type="submit" value="Subscribe" class="form-control submit px-3">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+
+                        <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="icon-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </body>
+    <script >
+        function ThemChiTiet() {
+            let chi_tiet_don_thuoc = document.querySelector('#chi_tiet_don_thuoc_mau').cloneNode(true)
+            chi_tiet_don_thuoc.classList.remove('d-none')
+            document.querySelector('#chi_tiet_don_thuoc').appendChild(chi_tiet_don_thuoc)
+        }
+
+        function XoaChiTietDonThuoc(ele) {
+            let chi_tiet_don_thuoc = ele.parentElement;
+            chi_tiet_don_thuoc.remove()
+        }
+
+        function ThanhToanMomo() {
+            let cac_input_so_luong = document.getElementsByName('so_luong')
+            let cac_input_chi_dan = document.getElementsByName('chi_dan_id')
+            let cac_input_thuoc = document.getElementsByName('thuoc_id')
+            let cac_input_don_vi = document.getElementsByName('don_vi_id')
+
+            let cac_gia_tri_ma_don_vi = [];
+            let cac_gia_tri_so_luong = [];
+            let cac_gia_tri_ma_chi_dan = [];
+            let cac_gia_tri_ma_thuoc = [];
+            let cac_gia_tri_chi_tiet_don_thuoc = [];
+            let tong_tien = 0;
+
+            let ma_phieu_kham_benh= document.getElementById('phieu_kham_benh').value;
+            let tien_kham= document.getElementById('tien_kham').value;
+            for (i = 1; i<cac_input_so_luong.length; i++ ) {
+                cac_gia_tri_so_luong.push(cac_input_so_luong[i].value)
+            }
+
+            for (i = 1; i<cac_input_chi_dan.length; i++ ) {
+                cac_gia_tri_ma_chi_dan.push(cac_input_chi_dan[i].value)
+            }
+
+            for (i = 1; i<cac_input_don_vi.length; i++ ) {
+                cac_gia_tri_ma_don_vi.push(cac_input_don_vi[i].value)
+            }
+
+            for (i = 1; i<cac_input_thuoc.length; i++ ) {
+                let thuoc_id = cac_input_thuoc[i].value.split('-')[0]
+                cac_gia_tri_ma_thuoc.push(thuoc_id)
+            }
+            for (i = 0; i<cac_input_thuoc.length -1; i++) {
+                let don_gia = parseFloat(cac_input_thuoc[i].value.split('-')[2])
+                tong_tien += cac_gia_tri_so_luong[i] * don_gia
+                gia_tri_chi_tiet_don_thuoc = {
+                    thuoc_id: cac_gia_tri_ma_thuoc[i],
+                    chi_dan_id: cac_gia_tri_ma_chi_dan[i],
+                    so_luong: cac_gia_tri_so_luong[i],
+                    don_vi_id: cac_gia_tri_ma_don_vi[i],
+                }
+                cac_gia_tri_chi_tiet_don_thuoc.push(gia_tri_chi_tiet_don_thuoc)
+            }
+            fetch("/thanh-toan-momo", {
+                body: JSON.stringify({
+                    "tong_tien": parseFloat(tong_tien) + parseFloat(tien_kham)
+                }),
+                method: "post",
+                headers: {"Content-Type": "application/json"}
+            }).then(res => res.json()).then(data => {
+                if(data.payUrl) {
+                    window.location.href=data.payUrl
+                }
+            })
+        }
+
+        function ThanhToan() {
+            let cac_input_so_luong = document.getElementsByName('so_luong')
+            let cac_input_chi_dan = document.getElementsByName('chi_dan_id')
+            let cac_input_thuoc = document.getElementsByName('thuoc_id')
+            let cac_input_don_vi = document.getElementsByName('don_vi_id')
+
+            let cac_gia_tri_ma_don_vi = [];
+            let cac_gia_tri_so_luong = [];
+            let cac_gia_tri_ma_chi_dan = [];
+            let cac_gia_tri_ma_thuoc = [];
+            let cac_gia_tri_chi_tiet_don_thuoc = [];
+            let tong_tien = 0;
+
+            let ma_phieu_kham_benh= document.getElementById('phieu_kham_benh').value;
+            let tien_kham= document.getElementById('tien_kham').value;
+            for (i = 1; i<cac_input_so_luong.length; i++ ) {
+                cac_gia_tri_so_luong.push(cac_input_so_luong[i].value)
+            }
+
+            for (i = 1; i<cac_input_chi_dan.length; i++ ) {
+                cac_gia_tri_ma_chi_dan.push(cac_input_chi_dan[i].value)
+            }
+
+            for (i = 1; i<cac_input_don_vi.length; i++ ) {
+                cac_gia_tri_ma_don_vi.push(cac_input_don_vi[i].value)
+            }
+
+            for (i = 1; i<cac_input_thuoc.length; i++ ) {
+                let thuoc_id = cac_input_thuoc[i].value.split('-')[0]
+                cac_gia_tri_ma_thuoc.push(thuoc_id)
+            }
+            for (i = 0; i<cac_input_thuoc.length -1; i++) {
+                let don_gia = parseFloat(cac_input_thuoc[i].value.split('-')[2])
+                tong_tien += cac_gia_tri_so_luong[i] * don_gia
+                gia_tri_chi_tiet_don_thuoc = {
+                    thuoc_id: cac_gia_tri_ma_thuoc[i],
+                    chi_dan_id: cac_gia_tri_ma_chi_dan[i],
+                    so_luong: cac_gia_tri_so_luong[i],
+                    don_vi_id: cac_gia_tri_ma_don_vi[i],
+                }
+                cac_gia_tri_chi_tiet_don_thuoc.push(gia_tri_chi_tiet_don_thuoc)
+            }
+
+            fetch("/thanh-toan", {
+                body: JSON.stringify({
+                    "ma_phieu_kham_benh": ma_phieu_kham_benh,
+                    "tien_kham": tien_kham,
+                    "cac_chi_tiet_hoa_don": cac_gia_tri_chi_tiet_don_thuoc,
+                    "tong_tien": parseFloat(tong_tien) + parseFloat(tien_kham)
+                }),
+                method: "post",
+                headers: {"Content-Type": "application/json"}
+            }).then(res => res.json()).then(data => {
+                if(data.thanh_cong) {
+                    window.location.href="http://127.0.0.1:5500/admin/hoadon/"
+                }
+            })
+        }
+    </script>
+{% endblock %}
+
