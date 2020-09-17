@@ -24,7 +24,8 @@ def LoginUser():
         user = Users.query.filter(Users.user_name == user_name.strip(), Users.password == password).first()
         if user:
             login_user(user=user)
-
+        else:
+            flash('Đăng nhập không thành công')
     return redirect("/admin")
 
 def DangKy():
@@ -159,7 +160,7 @@ def TaoThuGopY(ten_nguoi_gui, email_nguoi_gui, tieu_de, noi_dung):
     db.session.commit()
 
 def ThanhToan(ma_phieu_kham_benh, tien_kham, tong_tien, cac_chi_tiet_hoa_don, nguoi_dung_id):
-    hoa_don = Hoadon(phieu_kham_benh_id = ma_phieu_kham_benh,tien_kham=tien_kham, tong_tien= tong_tien, nguoi_dung_id= nguoi_dung_id)
+    hoa_don = Hoadon(phieu_kham_benh_id = ma_phieu_kham_benh,tien_kham=tien_kham, tong_tien= tong_tien, nguoi_dung_id= nguoi_dung_id, ngay_thanh_toan=datetime.now())
     db.session.add(hoa_don)
     db.session.flush()
 
@@ -178,7 +179,7 @@ def thanh_toan_momo(tong_tien):
     serectkey = "EQeEkD4sirbclirmqPv5qXDrcLu2h5EZ"#busssiness momo
     orderInfo = "pay with MoMo" #hieenj lên thông tin info
     returnUrl = "http://127.0.0.1:5500/admin/hoadon" # redicrect sau đi hoàn tất thanh toán
-    notifyurl = "https://dummy.url/notify"
+    notifyurl = "http://127.0.0.1:5500/contact"
     amount = tong_tien #Số tiền của hóa đơn
     orderId = str(uuid.uuid4()) # order id của momo chứ ko phải của chúng ta
     requestId = str(uuid.uuid4()) # như trên

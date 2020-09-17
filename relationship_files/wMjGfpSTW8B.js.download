@@ -1,4 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["Txd6L"]); }
-
-__d("RoomEmptyCardSheetImpressionFalcoEvent",["FalcoLoggerInternal","getSamplingPolicyConfig_DO_NOT_USE"],(function(a,b,c,d,e,f){"use strict";a=b("getSamplingPolicyConfig_DO_NOT_USE")("falco","room_empty_card_sheet_impression");c=b("FalcoLoggerInternal").create(a);e.exports=c}),null);
-__d("TrainingConsentType",[],(function(a,b,c,d,e,f){a=Object.freeze({ID:0,SELFIE:1});e.exports=a}),null);

@@ -1,4 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["VmqOr"]); }
-
-__d("InstantGameSubscriptionsContext.react",["React"],(function(a,b,c,d,e,f){"use strict";a=b("React");c=a.createContext;d=c({appID:null,subscriptionEventEmitter:null});e.exports=d}),null);
-__d("InstantGamesCloudGameControlSideBar.react",["ix","cx","CloudGamingSidebarMuteControl.react","Image.react","React","asset"],(function(a,b,c,d,e,f,g,h){"use strict";var i=b("React");function a(a){return i.jsxs("div",{className:"_8ybe",children:[i.jsx(b("CloudGamingSidebarMuteControl.react"),{messageSender:a.messageSender,startMuted:a.startCloudGameMuted}),a.isScreenshotButtonEnabled===!0?i.jsx("div",{className:"_9eir","data-testid":void 0,children:i.jsx(b("Image.react"),{src:g("1270807"),onClick:a.onScreenshotButtonClick})}):null]})}e.exports=a}),null);

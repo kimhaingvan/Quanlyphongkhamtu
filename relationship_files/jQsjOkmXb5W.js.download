@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["GCfGU"]); }
-
-__d("ShareMenuTypedLoggerLite",["generateLiteTypedLogger"],(function(a,b,c,d,e,f){"use strict";e.exports=b("generateLiteTypedLogger")("logger:ShareMenuLoggerConfig")}),null);

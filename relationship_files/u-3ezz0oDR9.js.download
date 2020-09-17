@@ -1,4 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["y2hRL"]); }
-
-__d("createUseMutation_DEPRECATED",["Promise","CometRelay","React"],(function(a,b,c,d,e,f){"use strict";e.exports=a;var g=b("React");function a(a,c,d,e){return function(){var f=b("CometRelay").useRelayEnvironment();return g.useCallback(function(g,h,i){return new(b("Promise"))(function(j,k){return b("CometRelay").enqueueMutation(f,{mutation:a,onCompleted:function(a,b){b&&b.length?k(b):j(a)},onError:function(a){return k([a])},optimisticResponse:c?c(g,h,i):null,optimisticUpdater:d?d(g,h,i):null,updater:e?e(g,h,i):null,variables:babelHelpers["extends"]({input:g},h)})})},[f])}}}),null);
-__d("XPresmaIGBizConversionPageLinkController",["XController"],(function(a,b,c,d,e,f){e.exports=b("XController").create("/presma/instagram/business-profile/linkpage/",{})}),null);

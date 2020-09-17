@@ -1,0 +1,1532 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d2d61d82-17b4-49ef-bc76-82a38c8ebe0a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/QLPK/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLPK/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLPK/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLPK/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/QLPK/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/btl.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/BTL_CNPM" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Mô tả yêu cầu1.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLPK/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/QLPK/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLPK/dao.py" beforeDir="false" afterPath="$PROJECT_DIR$/QLPK/dao.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLPK/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/QLPK/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/QLPKT_UseCase.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/._drcare" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/._contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/._css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/._fonts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/._images" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/._index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/._js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/._scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._bootstrap-datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._jquery.timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._open-iconic-bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/._style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/bootstrap/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/css/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/css/._bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/css/._mixins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/css/css/mixins/.__text-hide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/._flaticon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/._icomoon" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/._ionicons" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/._open-iconic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/._backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/._font" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/._license" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/font/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/font/._Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/font/._Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/font/._Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/font/._Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/font/._Flaticon.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/font/.__flaticon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/font/._flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/font/._flaticon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/flaticon/license/._license.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/icomoon/._icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/icomoon/._icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/icomoon/._icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/icomoon/._icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/._css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/._fonts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/css/.__ionicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/css/._ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/fonts/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/fonts/._ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/fonts/._ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/fonts/._ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/fonts/._ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/ionicons/fonts/._ionicons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/open-iconic/._open-iconic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/open-iconic/._open-iconic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/open-iconic/._open-iconic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/open-iconic/._open-iconic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/fonts/open-iconic/._open-iconic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._bg_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._dept-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._dept-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._dept-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._dept-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._dept-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._doc-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._doc-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._doc-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._doc-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._doc-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._doc-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._doc-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._doc-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._image_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._image_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._image_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._image_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._image_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._staff-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._staff-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._staff-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/images/._staff-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._google-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._jquery-migrate-3.0.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._jquery.animateNumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._jquery.timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/js/._scrollax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/._bootstrap" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/._style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/.__variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/._bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/._bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/._bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/._mixins" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/._utilities" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/mixins/.__visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/drcare/scss/bootstrap/utilities/.__visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/appointment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/blog-single.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/blog.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/ajax-loader.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/aos.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/bootstrap-datepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/bootstrap/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/bootstrap/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/css/mixins/_text-hide.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/icomoon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/jquery.timepicker.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/magnific-popup.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/open-iconic-bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/owl.carousel.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/owl.theme.default.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/department.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/doctor.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/backup.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/font/Flaticon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/font/Flaticon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/font/Flaticon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/font/Flaticon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/font/Flaticon.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/font/_flaticon.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/font/flaticon.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/font/flaticon.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/flaticon/license/license.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/icomoon/icomoon.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/icomoon/icomoon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/icomoon/icomoon.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/icomoon/icomoon.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/ionicons/css/_ionicons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/ionicons/css/ionicons.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/ionicons/fonts/ionicons.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/ionicons/fonts/ionicons.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/ionicons/fonts/ionicons.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/ionicons/fonts/ionicons.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/ionicons/fonts/ionicons.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/open-iconic/open-iconic.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/open-iconic/open-iconic.otf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/open-iconic/open-iconic.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/open-iconic/open-iconic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/fonts/open-iconic/open-iconic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/about.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/bg_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/bg_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/bg_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/dept-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/dept-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/dept-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/dept-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/dept-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/doc-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/doc-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/doc-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/doc-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/doc-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/doc-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/doc-7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/doc-8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/image_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/image_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/image_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/image_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/image_5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/image_6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/loc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/person_1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/person_2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/person_3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/person_4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/staff-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/staff-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/staff-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/images/staff-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/aos.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/bootstrap-datepicker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/google-map.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/jquery-migrate-3.0.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/jquery.animateNumber.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/jquery.easing.1.3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/jquery.magnific-popup.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/jquery.stellar.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/jquery.timepicker.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/jquery.waypoints.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/owl.carousel.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/popper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/range.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/js/scrollax.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/prepros-6.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/pricing.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_breadcrumb.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_button-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_card.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_carousel.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_close.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_code.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_custom-forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_dropdown.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_functions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_images.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_input-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_jumbotron.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_media.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_mixins.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_modal.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_nav.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_navbar.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_popover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_print.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_progress.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_root.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_spinners.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_tables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_toasts.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_tooltip.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_transitions.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_type.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_utilities.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/_variables.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/bootstrap-grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/bootstrap-reboot.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/bootstrap.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_alert.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_background-variant.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_badge.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_border-radius.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_box-shadow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_breakpoints.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_buttons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_caret.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_forms.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_gradients.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_grid-framework.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_grid.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_hover.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_image.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_list-group.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_lists.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_nav-divider.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_pagination.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_reset-text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_resize.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_screen-reader.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_size.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_table-row.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_text-emphasis.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_text-hide.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_text-truncate.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_transition.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/mixins/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_align.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_background.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_borders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_clearfix.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_display.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_embed.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_flex.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_float.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_overflow.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_position.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_screenreaders.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_shadows.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_sizing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_spacing.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_text.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/bootstrap/utilities/_visibility.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/drcare/scss/style.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/-4ZNM_KCCvO.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/-GdH2GsYQKj.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/-L9IhvFQoWO.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/-MtCAVGcajO.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/-Tmqw8oZ9Bf.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/-VyyX7RbvsG.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/-X2eqgq3Xtr.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/0Iwntv2lnx4.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/0UFeEJJXbZW.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/0VBflgJjeoX.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/0dQab5T2zxx.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/0m_UG2WouKL.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/0ysxgpRLTCL.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/101198778_2732494813736391_2075352330848436224_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/101321770_2654861601402326_7756962527170265088_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/102803409_2812326925665203_9118379667223478272_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/103683241_1131104957258189_8626612402435354512_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/104479350_1346738125715405_1323260337357409135_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/10455674_754504154599711_2028401647439426742_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/105734581_1394576587410638_3833350774465580579_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/105911696_2581711932138944_6107560759585859234_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/106001273_2591021401137859_8941842649477877403_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/106419022_2736196593277802_7456504185758201153_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/106426156_267706347846447_6876223252764789537_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/106503811_283580366193268_6579223495416541584_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/106719265_1683562005143346_8989675898367732879_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/107043364_2835680889996855_5984319367184706210_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/107461722_1535654813280997_8497905772601456650_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/107602690_303601250761667_7569133217787674972_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/107603529_1368905253311464_1852357758552043903_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/107807273_324429148951754_7177473547467815525_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/107865258_1472557882925800_886369642131969944_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/107865258_1472557882925800_886369642131969944_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/107882331_1557211984459015_9033768187929309091_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/107894378_1310157745857320_9054619191154010140_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/109267074_2431038593865197_7031164495494362345_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/109344899_1427923607395207_7735254121071277319_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/109717965_1212352999109190_7084396796906867173_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/109931078_1213865775633354_7413011810619584177_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/109931078_1213865775633354_7413011810619584177_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/110318707_2786997548073078_244113367825850476_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/111499236_2666795726866802_4712482535817166014_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/111debqYQv2.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/112775067_219152936303223_2822207445290433515_n(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/112775067_219152936303223_2822207445290433515_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/113268911_1445552082297987_386172808000290461_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/113332248_2678214915759213_2922342485833776471_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/115994584_392252055082743_1418792919285373500_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/116014587_3310041352554293_612758686152868572_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/116548422_2675781106043265_8691568801399173136_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/116693183_2753786401566036_1762060612066616258_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/116719345_2019746774822141_8862521699062582654_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/116761830_640722033533176_2001825893220080309_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/116914402_2736203649949189_1154568876833054310_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/116914402_2736203649949189_1154568876833054310_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117124359_1516557155192500_3039621590826620664_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117304904_182422949921187_7884847378141373012_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117398756_1051353601950919_2277886282312974664_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117433138_1761988740617322_1857828916127244622_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117641273_3533355246684204_7388632908937447580_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117651095_1723316764500110_8492297221751960166_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117842515_3278389045556215_673470680027800183_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117878959_101646954997016_3880728612074346438_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117903143_1420304948140047_8728661893559787103_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/117977022_2800350920182682_1303392937412725577_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118002272_964476357358678_5445335989414873846_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118006581_743465246508757_6048223988297725601_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118042844_1476613695857654_8834940216261075663_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118042844_1476613695857654_8834940216261075663_o(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118042844_1476613695857654_8834940216261075663_o(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118042844_1476613695857654_8834940216261075663_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118068303_2755236078134778_1762074786110109832_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118100141_2682745128650263_9204687924734712232_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118168157_1510443835823179_501872048517240787_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118197487_2676507742564100_7300483654772465535_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118268259_800853210659136_3544778870983879086_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118275088_181117263526724_1125500428907630529_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118293528_2098702743608072_8017322508488102189_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118309999_342947737090686_3962864148232032564_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118310920_1190871237945685_1367727556960122845_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118310920_1190871237945685_1367727556960122845_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118344436_1159431297777313_3653987569243032132_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118354918_1741297706051560_89641853880572608_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118356729_2686178471669927_6325848107195688258_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118460953_1441905112673052_6819180635697929415_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118486540_363957095007416_3362034828941098332_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118518072_2726604710913721_4833076113716413146_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118519692_2561368527509392_4950917646712894312_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118519898_2762589150675439_525808837933767433_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118560048_1511990352319186_8118161147576394553_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118579376_1276285522713604_5815170524905724897_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118594378_370579887434525_6124726741120206904_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118614834_139320281196015_5823439564822971941_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118625680_3145490825563579_5492834787175276413_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118692971_1709293619246635_2929662796790699386_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118693943_846987519459383_4850796919828991990_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118693943_846987519459383_4850796919828991990_o(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118693943_846987519459383_4850796919828991990_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118697770_113350357164338_3403675677397212341_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118734693_657721261806970_5708989438014588684_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118843631_1408748672849537_6705335227792110533_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118888468_1250933898598512_2909749914715662225_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118895952_3212904665493898_2653893215647061712_o.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118904157_361656661524060_3331167354524463137_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118904157_361656661524060_3331167354524463137_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118959775_3182342448551120_9160738261642388284_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118963664_3132557513639364_8586281477736945073_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118986549_345719266577682_7944170980047287896_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118993715_749096938991041_8977909712733729729_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/118999722_851277495697052_4957751882282610333_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119007907_3341019372629783_3335239799928601277_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119008430_3341019482629772_8327063240804950602_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119029999_1140181876383840_834949509744521621_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119030966_851277672363701_5836930729257862115_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119035893_2490029754620770_4465867172702902063_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119042778_2044238375708103_8634622075894676290_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119048457_1493559564163067_279784105511454250_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119059293_3341019419296445_8772571835599856530_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119060746_1555932291253959_735257445550095359_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119072860_851277742363694_8772762741038014261_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119074342_2760719414158987_1183141244639836327_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119080366_135200188299776_1838072778342755017_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119086418_754548041756784_3115943583929294120_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119091747_354180779287109_7616908760001922403_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119112515_135200171633111_1836200803696144181_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119146436_851277562363712_5652927581484353086_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119150500_135200204966441_1340199512703851605_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119160065_199186994965161_7580785695677319176_n(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119160065_199186994965161_7580785695677319176_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119170289_3341019529296434_6878710014737001797_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119203015_761793954601530_5353397774383021243_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119214420_3196715167109606_7966252787419456433_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119214420_3196715167109606_7966252787419456433_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119225003_2715866655327372_5403154729697659521_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119228812_1717769898380442_6660843670086078330_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119260698_174673804190544_2227368387040340783_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119426882_157142469387541_9125511075710539587_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119457807_3196645243783265_8621908348095603099_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/119466697_135200228299772_7324614762387551968_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/13305114_861489290621612_4091170929413100242_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/15137435_1327761770588892_2267489882492643743_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/17800467_183517692158296_3461925510010520414_n(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/17800467_183517692158296_3461925510010520414_n(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/17800467_183517692158296_3461925510010520414_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/18486029_662633477260139_7616365781039242630_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/19060197_824666684352006_693302993419103025_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/1MWiRFFyyeK.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/1T3gzSEXn2P.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/1dKyS-vnQHS.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/1f60a(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/1f60a.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/22448095_1038975749578093_2015031969834003463_n(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/22448095_1038975749578093_2015031969834003463_n(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/22448095_1038975749578093_2015031969834003463_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/23ph12qAPsX.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/24068337_875653852611757_7042441474724511558_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/25440016_971919352955422_3136487592180247903_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/25442892_558927107801102_7035467562336352304_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/2600.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/27ORHYFw5-8.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/28515152_1790651287898321_1651363132422369073_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/28NZusyxGBl.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/2Fy_lHDbbyJ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/2GVRVDhB0JM.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/2Ic5GzaGtzf.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/2OrDwOkzLBq.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/2T5KoqD5Eus.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/2c0gomoPR_J.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/2iwXEs6JYpD.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/2mPOqDMsl4n.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/31681593_2128751887369336_2165561375802261504_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/31MwKz8fRt1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/35836865_666485447027375_8750114675749814272_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/36590705_1891875194167400_2530028447955156992_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/36660489_673200829687773_1815925392658137088_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/37779124_863345057198203_1654004206475935744_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/37887253_111298213135498_6495381755883683840_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/38488638_2086336881591176_8653645750321807360_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/39100381_1080682758748286_2405112626980847616_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/3978U1DP_jj.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/3AN7EF4SNrG.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/3Ft8D_NPRz0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/3NTQJQ_eoLx.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/3SwkYrKNS9J.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/3Xcqsw-bqFC.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/3bydhg3nHl1.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/3vAgA6kHlJR.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/41456644_10204616619210829_6713835805581770752_n(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/41456644_10204616619210829_6713835805581770752_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/425640_2373751603276_1322003737_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/43248261_1116705648481440_6519580331773788160_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/45aOfO-J-98.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/48052381_1983565678364073_847346109188669440_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/49046440_1111263045700383_2700070450926452736_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/49273047_1105687912938971_5202938328860590080_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/49f-LHznq8s.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/4Ay82GU45zs.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/4MEhScdXUk-.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/4ZyblwQctWU.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/4ddxSlHVMnR.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/4lqeKSJVpkd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/4n3WJrJKHU6.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/50274336_2270478683238091_4897857271293280256_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/50949608_2017045188402470_7971790572203540480_n(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/50949608_2017045188402470_7971790572203540480_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/50MmOtTS1LL.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/51907591_2251596045167334_2468527204925964288_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/51964327_2120340581629466_8877860674013757440_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/51tES8cjShY.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/52392483_809506642731566_7958659426955558912_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/52887066_2305605909684026_9105781209589350400_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/537088_1382556981991791_526742881_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/56551690_2375334625844846_353026799694774272_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/59301612_1323891247773511_1314509251003023360_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/5cX9zw0VZjO.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/5lsWENhlQ9O.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/5tt2YW68lYI.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/5uwebbPb4TE.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/5vob1jveyrs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/5yLJhyIhdYC.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/62233569_2754313867973629_4735903602273419264_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/62576062_2539815556247791_3329205472422002688_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/62576062_2539815556247791_3329205472422002688_o(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/62576062_2539815556247791_3329205472422002688_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/64417082_1160423927467196_8272315399614234624_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/64417082_1160423927467196_8272315399614234624_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/64432082_2437896496269182_83809316049518592_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/64732470_1347212315416691_4710337302637838336_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/65372241_1309381879225920_3494168466112380928_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/65526500_1061539184048770_1631060280727306240_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/66483231_2380476925610854_1996468002257633280_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/67782060_1865676856912149_7992469735927185408_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/69722267_1318555041654172_4852121027846602752_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/6FZtXIrZyZb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/6LP_4u4tWaN.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/6RsO50f928M.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/6Ydw5AlWSyj.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/6YgkpMRS6Dm.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/6by1wg4QGKr.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/6erS520YR7u.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/6sB7cB_3pNb.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/70674334_916490685376511_4022129562946109440_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/70906835_614199255779653_6226358232961515520_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/71941039_1636322333170030_2218457475760259072_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/72476942_1265014057012452_5590261026529476608_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/72729763_2418577041690579_2841223833849954304_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/72wOzRxYOjQ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/73tZamyBsjN.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/74842343_1221592388035317_4365203433062400000_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/75446643_2380199282204095_3004623609768443904_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/76194744_1600379693437264_4768230773138391040_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/78713694_1482043218600825_4500542723052273664_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/78831331_166563511254086_5157521076929953792_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/79510940_2425105647739903_7921944014989819904_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/79737220_1162709694083090_648058625926889472_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7DsRpg6iFj3.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7FyM0GI-bva.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7NYEV8dPei7.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7OdgESO86ki.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7P4Tu_SJzqx.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7TnP9z79GiY.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7kqH9AZbqJn.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7lvmrWTm0j-.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7n6DzZtsbR3.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/7oVtGLsr9D2.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/80284568_2535183793385942_907598753685307392_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/80556289_2492697197659316_2007373431028318208_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/80794735_602782927205688_7653249069950697472_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/80858284_2400691563579989_5280103154409537536_n.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/808S23P4Aw_.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/81015321_2790133974371836_5290400677804113920_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/81227526_2435733476536120_6611155674543947776_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/81533539_1659987740811043_8836140160564330496_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/81kUmWNHTog.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/82376159_653036681901450_9088609487958310912_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/82775181_2778386025722295_7677893897237823488_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/82871988_771223796689833_6363251772831563776_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/82928197_252502099384808_7371545688698009766_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/83100460_485841722313152_4973659007366463488_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/83568628_2553202061565615_4471489936469524480_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/83593454_2563433453937866_4678006433806024704_n(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/83593454_2563433453937866_4678006433806024704_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/83752121_208443560198738_6351861055706103808_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84030770_2463996163916762_8825454720018546688_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84030770_2463996163916762_8825454720018546688_o(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84030770_2463996163916762_8825454720018546688_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84111555_2333140983644148_4204449434307657728_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84241059_189132118950875_4138507100605120512_n(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84241059_189132118950875_4138507100605120512_n(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84241059_189132118950875_4138507100605120512_n(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84241059_189132118950875_4138507100605120512_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84608922_494065138174921_5229630730266476544_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84621791_2399371893710866_3358512340680048640_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84688533_170842440872810_7559275468982059008_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84706592_2557589877897589_1136615824476340224_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/84RbKBOx_Bc.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/85194510_10206580166738290_5628374888436727808_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/87666088_3072477056098350_8978574616268111872_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/89269430_1374242796091565_7862810114984509440_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/89399636_2779706292149116_325149614380417024_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/89694093_2826826284210888_3063671271125417984_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/89926135_1092700531128596_4673126414654898176_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/89966439_2580769418916591_2326087178649600000_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/8GNcNJs559y.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/8kvUc8wTM0N.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/8yfFOSiFDdc.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/90092728_2552755464941359_8856264362973724672_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/90E_YFp4XlW.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/91108664_1521042571385512_72638956516147200_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/91320475_1501339733359966_8906354599451951104_o(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/91320475_1501339733359966_8906354599451951104_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/92107210_1049312655444893_2063338907889565696_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/92700747_621208118463182_4125485889340047360_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/93853272_2502256250035892_1645539332741660672_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/94368655_1486238668216445_1223592966669467648_n(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/94368655_1486238668216445_1223592966669467648_n(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/94368655_1486238668216445_1223592966669467648_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/94453733_1396100743927153_6246174967252123648_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/95159578_1131641557184759_5714399720416215040_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/95249903_2408033679487882_3382456886434463744_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/95363003_1720071714810812_4097454089498001408_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/96168008_3345711268794982_982949951984107520_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/96696327_1199452950394295_3490770025994780672_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/97209327_2582280922034735_1378442648112594944_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/97236397_262907301757868_7883286307143680000_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/97703827_2664748570298157_279589825370128384_o.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/97976137_997252127338985_2570993176009506816_n.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/9FpcYr0nA_8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/9LeH8KpePdQ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/9OkuH5gz_3G.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/9TDHgB5v5ID.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/9XHgsToWEPT.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/9Y8B1olrOX-.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/9bBhoUWyLPk.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/9eaMbVsHISG.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/A0xlTuM6x4W.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/A2iW_4u4rdg.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/A4jweMSELlX.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/A8Zv3_5HzEG.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ABADSXrFGuk.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/AE23G-8ujbc.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/AT88TI45mOK.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ATu0iHrV-OC.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/AUK09VOobeP.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/AZlL74mig6c.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/AfC2fuk8NVI.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/AgLI5YR36OA.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/AkBF6ur3NXY.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/At75mGunn9f.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/B31zGrmSaJS.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/BJ4ww-k4Abl.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/BOHCR0AXsOo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/BPreIa6ARO0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Bbm2nLo_kr1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/BsO0nG0uVpa.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/BwjU4B_qfpp.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/C-usHyNVOzg.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/C2RfhhCYYbX.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/CFsbTy1mtLB.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/CHEEBxcZfnR.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/CJTWRAYtFKu.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/CN79djE_B-a.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Ca2CBFTd67F.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/CkLYPONA0c3.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Cmj_k_Z3InH.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/CsSJzZApS5N.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/D7oRKsRIS84.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/DFLgBQmCLcd.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/DVJs15cyxsD.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/DmXWXPbjk7M.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/DyN5K9we2SP.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/E0vswNwdGP1.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/E0yhcBOJ1_T.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/E9W01fJkfYk.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ECtXL8CC9Se.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/EFd9qXj5W2N.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ELBX5bWSJx5.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ELFWfXa-2-9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/EPg3cm4PKOz.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ER_ykyVoClj.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/EhO3KBLUJTr.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Ei0KSRlLs4j.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/EjPXpObM9AF.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/EpZYEBFIvY5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/F29Pf2vBNfB.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/F5CwFZ6uJdq.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/F9g2XTJvedd.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/FJx-udnrr94.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/FLc2JLBMGfD.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/FNBdL-kQQ_N.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/FV-GYsXia4v.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/FVEIjVNrQSr.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/FcVWzp4MIwa.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Fjr79slxo8e.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Fpnzt1U7PQO.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Fvzl9iAdZOC.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/G31p66YXpik.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/GBDsifFRJkG.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/GE9OD89bfS4.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/GHBlghSNAWb.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/GYq2JcM-hOa.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/GqMW9r-WKzR.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/H-dS1wsbixq.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/H6IwIdJoLYy.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/HQZ7SyZpZjL.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/HQpBe_GtQSw.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/HTq_Dwygu3J.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/HiBub06Do_q.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Hw1dU9ijsAt.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/I4Bfe2pFWpq.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/IHOQIITyjF5.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/IO9l1bfZSS7.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/IOXWsioCHY8.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/IUCsFzNn-n3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Ia8rOeiHeL7.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/IdwQcPZM46t.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/IjJgpwXh4Dn.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/IozBgWPaF1D.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/J-iRdXUcUNC.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/J5t_Cx7DkMf.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/J6eKXwt512N.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/J8KviShUEI_.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/J8RIDFszODc.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/JDGkm8fhJLu.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/JQl3xxVwZ1R.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/JRxuZTugppW.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Jb2e2bFuuKF.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/JqmUNsLRJev.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Jz_d6K1euaV.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/KFcjnNjwCJg.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/KJc2VHWSNqn.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/KTSimz-_-zD.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/KUQvp_41xjg.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/KUTr-6TPjY0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/KW1wxQZmE-C.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Ki_LXNZdi8z.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/KtEhbjn-pMn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/KzN2j0FiJBR.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/L-VwcQzLcQs.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/L4SnSWq9Re0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/L5xxpE4gtgX.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/L70m7APBdn5.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/LEeLZdfPMH5.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/LJ9Eg_Ciu5_.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/LLzAVNclZgg.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/LWHSwvVAzB8.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/LckLAcH-2vm.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Ls7FnAcJvwl.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/M-Sf-BSXiuW.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/M3vLFY2_VEp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/M6eod8Ap7e4.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/M9vEQ77paM3.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Mmr1KyP1kiP.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/MzoleVHzzEh.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/NBisQxDjbcd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/NCVMLP9kNu2.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/NDiqsIbP5QO.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/NMkDkhlXCOL.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/NlGd1Y0V98o.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Nw1Z49ObKws.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/O--69Zy2Azb.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/O0tPuG2BKaR.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/OH1tZgTxIqD.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/OPhF9wYmwcD.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/OW0LGk3UwhD.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/PBP--K7vgr-.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/PEyA_iTiqNF.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/PRJGw3QCPMp.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/PRuTWNP0Biy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/PTEWPN4kbvy.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Pb9aMk0Bpxp.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Pcsf3ioP9ZE.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Pkv8siPbK4N.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/PlfZpKP09DV.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Ppzoqsp_qaK.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Ptv31RAT1Gm.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/PyQhkxizyaK.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Q4yEdDgVRN-.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Q7Vw1VCoIHX.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/QFf5ECVhay8.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/QUmNi-iu0TH.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/QWYhCQMUMxR.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/QdPFEcG9NKD.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/QwSSNa3jTa4.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/QzIKfnjpZHx.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/R2DYYCOTkI0.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/RPwwhBOsbgi.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/RWJ5agYD8E4.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Rh7O5a_n21j.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Rr6_l8PkLxP.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/S8i-x9a1idi.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/SKmHgkceVN9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/SUrrO-xNyB6.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Sb5IXeEIqtR.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/SnBAnIk8v9a.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/SojxkUS-TKG.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/StReV6HgN3M.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/T9GQogV1NXJ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/TCKpWIyT0r9.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/TE7D3EbDYqg.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/TEJ0iUm2t83.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/TR5a3S_SY_H.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/TRKKQTgvVga.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/TWbELHBLDWc.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/TYGw71zAD61.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/T_0gyfNOM90.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Tc5e_XPXxcl.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Tq-TTNcxqMl.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/TvxzDIAzlD9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/U16n4X4ejJO.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/U23qOR83cv0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/U9TswcAMRt_.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UAohEC7-pQw.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UAw-HBgeasJ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UHW55sz90AQ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UMGzbYAS8is.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UPk22SG7JM5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/URAL0mWLej9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UW0LCZL2d9J.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UYOIOHx2TlK.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UboeEt7T4Aw.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UcH_QntSqaR.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UcaKTW4aqt6.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/UhSqyPQ0TTJ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/VDOslMn3nk3.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/VIjXnRi0gs_.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/VLG4Ee5xXtV.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/VMMzajqTlSy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/VRzSVH5iU-V.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/VYmdikc3yyC.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/VbJDzwUz0vB.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/VfuGskvjlCA.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/VvUVhusBeGi.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/W2dfuVADKBS.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/W8j5Nf937S7.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/WoeomhoNURy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/WxvrsICJebC.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/X1myIzIdt-H.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/X7oASSTD_iL.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/XK7rKeA430s.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/XQBJ59Z0oiw.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/XleHpzmqoX5.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/XushLr1roTu.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/YmDIE09B9Yg.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/YnywbUjm0-R.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/YrhU4cWJsPM.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/YvYy8X4dFeU.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ZHRC3txvqhp.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ZXsIttj9TCx.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Z__Eo1Z0XRv.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ZbLgMPmw2DD.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/Zj3-fWyLAYU.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ZnLOBAek4nU.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/_-B2smaPADZ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/_5prfZUX87A.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/_7pIhIs1Mq1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/_QyUu0yLDwJ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/_TDKt4gECpU.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/_VrgKMyrsJC.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/_eF2fs6DEM0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/a9WSER_UHu-.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/a9WlZ6sm4pT.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/aCYcvfAV30P.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/aHPBXgvwIKj.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/aLcl6X7uBt1.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/aaV_6qGrJqi.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/agl2Ph2NFX9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/aidWYeOhfa-.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ajB1wSrgmCj.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/b1SYY8m-31-.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/b1SZ_6ebTHv.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/bCpqLJVlUMt.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/bVWVtiWWAm6.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/bZyKumi53ma.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/bhkSJFBggxR.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/bqk-fYO84Wv.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/c0_GlcB_Qqm.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/c4bQxnXTgIY.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/c9uuD4eGqtC.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/cCU2lBz_Y44.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/cDKZHpDWcVs.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/cJHihQmkJQt.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/cOyiNimh_qq.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/cd159IxAvgA.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/cec5su5_Kfy.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/dHQ0UPZYzy3.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/dapSI-vPu1J.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/dfa0LdFL4j4.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/dpmaN56RdGK.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/e47U9vNwRDw.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/e9GbzDGvRJt.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/eT4yNhC_qSO.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/eZT0hUZnaLg.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/e_7DJ98eeUj.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/edsQR0gSzq2.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/efV-U9mjTln.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/f13Z7SUv6VB.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/fAjCv8WZup3.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/fXd97L2x4tH.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/feSMVidIcpd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ftC2rXIF2i1.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/fwujrYM3yX9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/gB2KJE09tX-.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/gGForsP871a.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/gL4VGhmA4rd.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/gbSgsUo_4Mb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/gbYImwUpdQ6.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/gbwMGyNvdcs.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ggvxL1mxiJ9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ghQI925Bibp.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/gm_kA6YJj4Q.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/gqQdfmOjb7g.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/h7ngPV498x5.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/hFo87EnoA0e.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/hJbpixMPg9y.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/hX63G4zD9HZ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/hcNnIpuAk_f.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/hm4q__94FyM.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/hsts-pixel.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/hxeBIVE1WYU.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/hz6WlAL7zGO.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/i9Jw4Exqn6V.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/iL7AynvIFkE.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/iMA3d-oiI74.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/iPQVU6JP4o8.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/iRnJkhj034n.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/iVVGOvE8Day.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/igXobmYnWJN.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/isfKDS04DdZ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/iwpRTnSHJwz.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/j-7ZRMO0Va1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/j5KdgD-4dbi.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/j92McfqLy9z.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/jCMkqqrgGKB.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/jGEVXskrBn_.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/jIIOpnF0tmL.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/jOV_DHZAuzE.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/jPwMqv6bQzi.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/jQsjOkmXb5W.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/jon0WJCUJ7B.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/jvNdCh-uNlS.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/k3tf_M5FVcQ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/k5Xt22gMZ3w.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/kLEdyixJ_xl.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/kOi74p1IpYi.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/kV-AdCpkea8.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/kVftKlrfS6a.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ky_VB5hcczy.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/kzW3MmK6rhG.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/l7Lhdvnun0X.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/lBWBq6T9b63.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/lEYWaVzoK8t.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/lg2BJaZ4YRz.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/lqQiouQpCxU.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ltqguk-482I.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/m-VQDIbqym1.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/m4vNCY5xAWd.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/mG56kjjia08.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/mPCTNJHPJEG.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/mZHyIQEU0O8.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/mbNrocKKYMe.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/mcr6dpKDRt_.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/mdo-R7jeuM_.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/myMdy7tN-fZ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/n1WMeTDzWTS.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/n7DZGR8LbXN.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/nKUhwvMtf48.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/nUuVQpQ8P8m.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/naSWhSO0W0D.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/nkP6WottqW4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/nmOiTx9n69O.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/noblqo9xCWb.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/npRN4MgMSCc.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/nuQYEsYJr1L.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/nwp_Pp5wpd_.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/oApNAV7Wdeo.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/oTRbd4F6GVK.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/oXsCIgtJT2_.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/oZUmkWELNiY.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ohbFjn4yl-0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/orri3CjNTAb.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/orvk8u9pZgQ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/p1Y_ErFnZ75.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/p9YxC62b4i1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/pCmD3JXQtUp.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/pZlNDPGMx5i.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/p_TTkauSOug.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/pdj7_nuR30C.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/psrHjLL5-Ph.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/pwYjB-lKz2g.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/px7mekcKnlc.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/q4jnezgGD4J.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/qJyvi3j4Jim.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/qWzzFvDNmyo.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rDg-LTxCCKW.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rFYj2REYxwJ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rGn62F_exzo.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rHXA6v7EnkF.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rNyEktCH3PC.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rSYZiUaOYPA.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rZwmghH36xs.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rjF6ljOfsDg.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rnNEmzfeOTR.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/rrCyKuBlP_S.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/s-XCcRbrcQX.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/s1NMVLYI71E.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/s9y2w13yCQH.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/sAvbLaR71sF.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/sEKsk0Smei_.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/sQsF8qtT3xB.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/sRUJULy4Oiy.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/sSeGG6Nb1m6.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/sTNUzBItzNT.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/safe_image.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/seC5gpYqeQf.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/sgDRhtkQsbJ.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/srGNsqyK7Ya.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/static_map.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/sxZkxyGUEyv.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/sz6J_5eGyKe.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/t1dr7SSpBs9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/t97cJV0GoMP.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/tSXSzCM1kgu.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/tWZxuxRPm1-.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/tdcuiTJp40z.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/tdsDASLKf7P.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/teSz9PHo6P3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/toG0zCguvsF.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/trv8IrGMmG2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/u-3ezz0oDR9.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/u87hN1YDcoO.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/uGQTsse0kHb.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/uRRD8AYIgJ3.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/udLE8CWHAk0.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/uzxCYAwxQel.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/vMnec7Kua1v.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/vaWInK9qcky.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/vcBx_FRxzbW.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/vepWzk_eT_H.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/w1-XroX17dO.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/wMjGfpSTW8B.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/wTVTy7QxLha.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/wjkaDha4pZv.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/wkwt89nMKds.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/wslOARJQiwi.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/wzUoLwIoTYD.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/x0Trie_fS5p.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/x5UKofp8VOC.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xCpAF1JZBEC.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xK7xBKHFFrv.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xLSj3zOxrN1.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xSr9R1ecuSq.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xTB5U_eLmEA.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xUQmMjiIgBe.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xWQu716Lr5v.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xZzg-V6swVU.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xaoBtDeeboB.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xkKp0ntXtu3.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xmMs5l53gCW.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xn6aGYG-tyJ.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xqfCSp6Fjs2.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/xr5kmqvxf5B.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/y1Y6p_Dk2ex.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/y7YbjT1zbUK.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/yF-RvUrSfVo.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/yJ5Vsn4u7nZ.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/yQLfJpPWUTR.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ySDfr2FLWnT.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ySWwNKGD-bW.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/yg1zgY_9xvk.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ysq4J5Zx438.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/yzrmJVGMh2z.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/z7zy5Scqxwk.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/zGy_f5oOfP6.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/zP6tJKcqlln.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/zZ_ZGLkNLWn.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/zbQsIjl1gO_.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/ziOezgZbl6U.js.download" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationship_files/zp9wGn541Es.js.download" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FlaskConsoleOptions" custom-start-script="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))">
+    <envs>
+      <env key="FLASK_APP" value="app" />
+    </envs>
+    <option name="myCustomStartScript" value="import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\nApp: %s [%s]\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))" />
+    <option name="myEnvs">
+      <map>
+        <entry key="FLASK_APP" value="app" />
+      </map>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JupyterTrust" id="52434dfa-c646-445d-acd2-6fd32454a606" />
+  <component name="ProjectId" id="1gY9PO6X3bu9MXjDcYuX9pTvK9I" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/QLPK/templates/admin" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\WORKSPACE\btl\QLPK\templates\admin" />
+      <recent name="D:\WORKSPACE\btl\QLPK" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\WORKSPACE\btl\QLPK\templates\admin" />
+      <recent name="D:\WORKSPACE\btl\QLPK\views" />
+      <recent name="D:\WORKSPACE\btl\QLPK\templates\clients" />
+      <recent name="D:\WORKSPACE\btl\QLPK\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.main (1)">
+    <configuration name="BenhNhanView" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="btl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QLPK/views" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QLPK/views/BenhNhanView.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dao" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="btl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QLPK" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QLPK/dao.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="btl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QLPK" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QLPK/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="btl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="models (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="btl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QLPK" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QLPK/models.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="testMoMo" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="btl" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/QLPK" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/QLPK/testMoMo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.dao" />
+        <item itemvalue="Python.models (1)" />
+        <item itemvalue="Python.BenhNhanView" />
+        <item itemvalue="Python.testMoMo" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2d61d82-17b4-49ef-bc76-82a38c8ebe0a" name="Default Changelist" comment="" />
+      <created>1598280633955</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598280633955</updated>
+      <workItem from="1598280635097" duration="4061000" />
+      <workItem from="1598329474107" duration="14850000" />
+      <workItem from="1598370854584" duration="2723000" />
+      <workItem from="1598448166539" duration="6525000" />
+      <workItem from="1598489717628" duration="1865000" />
+      <workItem from="1599110057930" duration="5061000" />
+      <workItem from="1599374269918" duration="13908000" />
+      <workItem from="1599535895904" duration="10838000" />
+      <workItem from="1599575817042" duration="2457000" />
+      <workItem from="1599659948676" duration="10234000" />
+      <workItem from="1599710805065" duration="1741000" />
+      <workItem from="1599713147570" duration="1841000" />
+      <workItem from="1599716910024" duration="8251000" />
+      <workItem from="1599749395588" duration="1282000" />
+      <workItem from="1599894803636" duration="1866000" />
+      <workItem from="1599904722789" duration="6873000" />
+      <workItem from="1599920514383" duration="7987000" />
+      <workItem from="1599976370803" duration="17137000" />
+      <workItem from="1599999288730" duration="11825000" />
+      <workItem from="1600096031275" duration="4345000" />
+      <workItem from="1600141501203" duration="9617000" />
+      <workItem from="1600263422326" duration="4596000" />
+      <workItem from="1600315812784" duration="4924000" />
+      <workItem from="1600331581118" duration="75000" />
+      <workItem from="1600331669197" duration="53000" />
+      <workItem from="1600354973071" duration="1014000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="499" y="214" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599110117312">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="214" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1599110117312" />
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1598283435506">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="690" y="267" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1598283435506" />
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom" timestamp="1600355729911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1600171671114" />
+    <state width="1877" height="248" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600355729911" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center" timestamp="1600355729911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1600171671113" />
+    <state width="1877" height="248" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600355729911" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left" timestamp="1600355729911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1600171671113" />
+    <state width="1877" height="248" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600355729911" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right" timestamp="1600355729911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="185" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1600171671113" />
+    <state width="1877" height="248" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600355729911" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom" timestamp="1600331655017">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599725408761" />
+    <state width="1877" height="347" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1600331655017" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center" timestamp="1600331655016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1599725408761" />
+    <state width="1877" height="347" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1600331655016" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left" timestamp="1600331655016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1599725408761" />
+    <state width="1877" height="347" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1600331655016" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right" timestamp="1600331655016">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1599725408761" />
+    <state width="1877" height="347" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1600331655016" />
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom" timestamp="1599725408761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1599725408761" />
+    <state width="1493" height="261" key="GridCell.Tab.2.center" timestamp="1599725408761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1599725408761" />
+    <state width="1493" height="261" key="GridCell.Tab.2.left" timestamp="1599725408761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1599725408761" />
+    <state width="1493" height="261" key="GridCell.Tab.2.right" timestamp="1599725408761">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="261" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1599725408761" />
+    <state x="828" y="263" width="585" height="534" key="find.popup" timestamp="1600325490198">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="534" y="200" width="800" height="534" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1599911478196" />
+    <state x="828" y="263" width="585" height="534" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600325490198" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1600268909473">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="498" y="178" width="672" height="538" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1600146489442" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1600268909473" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/btl$testMoMo.coverage" NAME="testMoMo Coverage Results" MODIFIED="1599894860077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QLPK" />
+    <SUITE FILE_PATH="coverage/btl$models__1_.coverage" NAME="models (1) Coverage Results" MODIFIED="1600155857011" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QLPK" />
+    <SUITE FILE_PATH="coverage/btl$models.coverage" NAME="models Coverage Results" MODIFIED="1598283035275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/btl$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1600355729900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QLPK" />
+    <SUITE FILE_PATH="coverage/btl$PhieuKhamBenhView.coverage" NAME="PhieuKhamBenhView Coverage Results" MODIFIED="1598340458095" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QLPK/views" />
+    <SUITE FILE_PATH="coverage/btl$dao.coverage" NAME="dao Coverage Results" MODIFIED="1600355725193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QLPK" />
+    <SUITE FILE_PATH="coverage/btl$main.coverage" NAME="main Coverage Results" MODIFIED="1600155927339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/btl$BenhNhanView.coverage" NAME="BenhNhanView Coverage Results" MODIFIED="1600144089431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/QLPK/views" />
+  </component>
+</project>

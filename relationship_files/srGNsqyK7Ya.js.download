@@ -1,3 +1,0 @@
-if (self.CavalryLogger) { CavalryLogger.start_js(["y1Per"]); }
-
-__d("WorkGalahadAppTabID",[],(function(a,b,c,d,e,f){a=Object.freeze({PROFILE:"profile",HOME:"home",NOTIFICATIONS:"notifications",CHATS:"chats",ADMIN_PANEL:"admin_panel",ESSENTIAL_MIGRATION:"essential_migration",DIRECT:"direct",VC:"vc",CALL:"call",GARDENS:"gardens",MEETING:"meeting",TRANSCRIPT:"transcript",FILES:"files",FEED:"feed",SEARCH:"search",EXPLORE:"explore",TOOLS:"tools",ACCOUNTS_ONLY:"accounts_only"});e.exports=a}),null);

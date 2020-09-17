@@ -80,6 +80,7 @@ def BlogSingle():
 
 @app.route('/contact', methods=['GET', 'POST'])
 def Contact():
+    print('contact na')
     return render_template('clients/contact.html')
 
 @app.route('/department', methods=['GET', 'POST'])
